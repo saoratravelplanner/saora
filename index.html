@@ -343,27 +343,26 @@
         </div>
       </sc-if>
       <sc-if value="{{ notSubmitted }}" hint-placeholder-val="{{ true }}">
-      <form onSubmit="{{ onSubmit }}" style="display:flex;flex-direction:column;gap:18px;">
+      <form onSubmit="{{ onSubmit }}" novalidate="" style="display:flex;flex-direction:column;gap:18px;">
         <div id="formfields" style="display:grid;grid-template-columns:1fr 1fr;gap:18px;">
           <label style="display:flex;flex-direction:column;gap:8px;font-size:10.5px;letter-spacing:0.2em;text-transform:uppercase;color:#6f7d63;">Vos prénoms
-            <input type="text" required="" placeholder="Camille &amp; Alex" style="background:#f6f2ea;border:1px solid rgba(35,42,31,0.18);padding:14px 14px;color:#232a1f;transition:border-color .3s;">
+            <input type="text" name="prenoms" required="" placeholder="Camille &amp; Alex" style="background:#f6f2ea;border:1px solid rgba(35,42,31,0.18);padding:14px 14px;color:#232a1f;transition:border-color .3s, background-color .3s;">
           </label>
           <label style="display:flex;flex-direction:column;gap:8px;font-size:10.5px;letter-spacing:0.2em;text-transform:uppercase;color:#6f7d63;">Email
-            <input type="email" required="" placeholder="vous@email.com" style="background:#f6f2ea;border:1px solid rgba(35,42,31,0.18);padding:14px 14px;color:#232a1f;transition:border-color .3s;">
+            <input type="email" name="email" required="" placeholder="vous@email.com" style="background:#f6f2ea;border:1px solid rgba(35,42,31,0.18);padding:14px 14px;color:#232a1f;transition:border-color .3s, background-color .3s;">
           </label>
         </div>
         <label style="display:flex;flex-direction:column;gap:8px;font-size:10.5px;letter-spacing:0.2em;text-transform:uppercase;color:#6f7d63;">Type de voyage
-          <select style="background:#f6f2ea;border:1px solid rgba(35,42,31,0.18);padding:14px 14px;color:#232a1f;">
-            
-            
+          <select name="type-voyage" required="" style="background:#f6f2ea;border:1px solid rgba(35,42,31,0.18);padding:14px 14px;color:#232a1f;transition:border-color .3s, background-color .3s;">
             <option>Escapade à deux</option>
             <option>Grand voyage</option><option>Lune de miel</option><option>Anniversaire / demande en mariage</option>
             <option>Autre projet</option>
           </select>
         </label>
         <label style="display:flex;flex-direction:column;gap:8px;font-size:10.5px;letter-spacing:0.2em;text-transform:uppercase;color:#6f7d63;">Votre projet
-          <textarea rows="4" required="" placeholder="Quelques mots sur ce dont vous rêvez, vos dates, votre budget…" style="background:#f6f2ea;border:1px solid rgba(35,42,31,0.18);padding:14px 14px;color:#232a1f;resize:vertical;line-height:1.6;"></textarea>
+          <textarea rows="4" name="message" required="" placeholder="Quelques mots sur ce dont vous rêvez, vos dates, votre budget…" style="background:#f6f2ea;border:1px solid rgba(35,42,31,0.18);padding:14px 14px;color:#232a1f;resize:vertical;line-height:1.6;transition:border-color .3s, background-color .3s;"></textarea>
         </label>
+        <p data-form-error="" style="display:none;font-size:12px;letter-spacing:0.04em;color:#b34a3a;margin:0;text-align:center;">Merci de remplir tous les champs avant d'envoyer votre demande.</p>
         <button type="submit" style="margin-top:6px;font-size:11px;letter-spacing:0.22em;text-transform:uppercase;color:#f4efe6;background:#232a1f;border:none;padding:18px;cursor:pointer;transition:background .4s;" style-hover="background:#5c6b53;">Envoyer ma demande</button>
         <p style="font-size:11px;color:#8a8068;text-align:center;margin:2px 0 0;">En envoyant ce formulaire, vous acceptez d'être recontacté·e par Saora.</p>
       </form>
@@ -423,6 +422,29 @@ class Component extends DCLogic {
 
     // Scroll reveal
     this._reveal();
+
+    // Contact form: clear error styling as the visitor fixes a field
+    this._contactForm = document.querySelector('#contact form');
+    if (this._contactForm) {
+      this._clearFieldError = (e) => {
+        const f = e.target;
+        if (!f || !f.hasAttribute || !f.hasAttribute('required')) return;
+        const filled = (f.value || '').trim().length > 0;
+        if (filled) this._setFieldError(f, false);
+      };
+      this._contactForm.addEventListener('input', this._clearFieldError);
+      this._contactForm.addEventListener('change', this._clearFieldError);
+    }
+  }
+
+  _setFieldError(field, hasError) {
+    if (hasError) {
+      field.style.borderColor = '#c0392b';
+      field.style.backgroundColor = '#fbeceb';
+    } else {
+      field.style.borderColor = 'rgba(35,42,31,0.18)';
+      field.style.backgroundColor = '#f6f2ea';
+    }
   }
 
   _reveal() {
@@ -454,13 +476,40 @@ class Component extends DCLogic {
     window.removeEventListener('scroll', this._onScroll);
     if (this._io) this._io.disconnect();
     if (this._t) clearTimeout(this._t);
+    if (this._contactForm) {
+      this._contactForm.removeEventListener('input', this._clearFieldError);
+      this._contactForm.removeEventListener('change', this._clearFieldError);
+    }
   }
 
   renderVals() {
     return {
       submitted: this.state.submitted,
       notSubmitted: !this.state.submitted,
-      onSubmit: (e) => { e.preventDefault(); this.setState({ submitted: true }); window.scrollTo({ top: document.getElementById('contact').offsetTop - 80, behavior: 'smooth' }); }
+      onSubmit: (e) => {
+        e.preventDefault();
+        const form = e.target;
+        const errorMsg = form.querySelector('[data-form-error]');
+        const fields = form.querySelectorAll('input[required], select[required], textarea[required]');
+        let allValid = true;
+        let firstInvalid = null;
+        fields.forEach((f) => {
+          const filled = (f.value || '').trim().length > 0;
+          this._setFieldError(f, !filled);
+          if (!filled) {
+            allValid = false;
+            if (!firstInvalid) firstInvalid = f;
+          }
+        });
+        if (!allValid) {
+          if (errorMsg) errorMsg.style.display = 'block';
+          if (firstInvalid) firstInvalid.focus();
+          return;
+        }
+        if (errorMsg) errorMsg.style.display = 'none';
+        this.setState({ submitted: true });
+        window.scrollTo({ top: document.getElementById('contact').offsetTop - 80, behavior: 'smooth' });
+      }
     };
   }
 }
