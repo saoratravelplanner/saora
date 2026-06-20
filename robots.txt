@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://saora-travel.com/sitemap.xml
