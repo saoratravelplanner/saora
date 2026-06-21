@@ -1,37 +1,144 @@
-/* =====================================================================
-   Saora — Journal : base de données des articles
-   ---------------------------------------------------------------------
-   POUR AJOUTER UN ARTICLE : copiez un bloc { ... } dans la liste ARTICLES
-   ci-dessous et remplissez les champs. Le "slug" (utilisé dans l'URL) est
-   généré automatiquement à partir du titre — rien d'autre à faire.
-   Lien vers un article :  Article.dc.html?a=slug-de-l-article
-   ===================================================================== */
-(function () {
-  function slugify(s) {
-    return String(s).toLowerCase()
-      .normalize('NFD').replace(/[\u0300-\u036f]/g, '')   // enlève les accents
-      .replace(/[^a-z0-9]+/g, '-')                          // espaces/ponct. -> tiret
-      .replace(/^-+|-+$/g, '');                             // tirets de bord
-  }
+// articles.js — Source de vérité unique du blog Saora
+// Généré et maintenu par l'agent SEO & Site.
+// STRUCTURE : tableau d'articles du plus récent au plus ancien.
+// NE PAS modifier journal/*/index.html, Journal.dc.html ou sitemap.xml directement.
+// Utiliser node build.js pour régénérer le site.
 
-  var ARTICLES = [
-    {
-      title: "Denman et Hornby Island : les Caraïbes secrètes du Canada",
-      titleHtml: 'Denman &amp; Hornby Island,<br>les Caraïbes secrètes du <span style="font-style:italic;color:#5c6b53;">Canada</span>',
-      subtitle: "Deux îles confidentielles aux plages turquoise, à quelques heures de Vancouver.",
-      category: "Guide de voyage · Canada",
-      author: "Fiona",
-      date: "Juin 2026",
-      dateISO: "2026-06-21",
-      readingTime: "9 min",
-      hero: "denman-hornby-hero.jpg",
-      heroAlt: "Kayak sur les eaux calmes du détroit de Georgia au coucher du soleil",
-      heroPos: "center 58%",
-      excerpt: "Du sable blanc, une eau turquoise, une communauté d'artistes bohème : à quelques heures de Vancouver, deux îles encore méconnues offrent un dépaysement total, loin des foules.",
-      ctaEyebrow: "Envie de découvrir les Caraïbes du Canada ?",
-      ctaTitleHtml: 'Le Canada hors des sentiers battus,<br><span style="font-family:\'Sloop Script One\',cursive;font-weight:400;font-size:clamp(44px,6vw,78px);line-height:0.9;color:#f4efe6;">façonné rien que pour vous</span>',
-      ctaText: "Chez Saora, j'intègre volontiers ce genre de pépites confidentielles dans des itinéraires sur-mesure au Canada. Racontez-moi votre projet, et composons ensemble le voyage qui vous ressemble.",
-      bodyHtml: `
+window.SAORA_ARTICLES_LIST = [
+  {
+    slug: 'lune-de-miel-grece-iles-meconnues',
+    title: 'Lune de miel en Grèce : quatre îles pour fuir Santorin',
+    titleHtml: 'Lune de miel en Grèce :<br>quatre îles pour fuir <span style="font-style:italic;color:#5c6b53;">Santorin</span>',
+    subtitle: 'Milos, Naxos, Sifnos, Folegandros — la Grèce romantique et préservée, loin des foules.',
+    category: 'Guide de voyage · Grèce',
+    author: 'Fiona',
+    date: 'Juin 2026',
+    dateISO: '2026-06-21',
+    readingTime: '8 min',
+    hero: 'grece-cyclades-hero.jpg',
+    heroAlt: 'Terrasse en bord de mer dans les Cyclades avec façades blanches et eau turquoise',
+    heroPos: 'center 55%',
+    excerpt: 'Santorin, c\'est beau. Mais pour une lune de miel inoubliable, la Grèce a mieux à offrir : Milos et ses falaises lunaires, Sifnos la gastronomique, Naxos la généreuse, Folegandros la sauvage.',
+    ctaEyebrow: 'Votre lune de miel en Grèce, sur-mesure',
+    ctaTitleHtml: 'La Grèce des couples,<br><span style="font-family:\'Sloop Script One\',cursive;font-weight:400;">composée rien que pour vous</span>',
+    ctaText: "C'est moi, Fiona, qui prendrai en charge la conception de votre voyage, du premier brouillon jusqu'au jour du départ. Que vous rêviez de Milos, de Sifnos ou d'un circuit entre plusieurs îles, racontez-moi votre projet — et composons-le ensemble.",
+    bodyHtml: `
+    <p style="font-family:'Cormorant Garamond',serif;font-size:21px;line-height:1.85;color:#3a3a2e;margin:0 0 26px;">
+      <span style="float:left;font-family:'Cormorant Garamond',serif;font-weight:600;font-size:78px;line-height:0.74;margin:8px 14px 0 0;color:#5c6b53;">I</span>l y a des destinations qui sonnent comme un cliché dès qu'on les prononce. Santorin en fait partie. Belles maisons blanches, couchers de soleil rosés, foule compacte en juillet — je ne dis pas que c'est sans charme, je dis que pour une lune de miel, vous méritez mieux que la file d'attente au belvédère d'Oia. La Grèce des Cyclades cache des îles qui n'ont rien à envier à Santorin, et que les couples qui voyagent vraiment se transmettent encore à voix basse. Voici les quatre que je recommande le plus souvent.
+    </p>
+
+    <div class="att-row" style="display:flex;align-items:baseline;gap:28px;margin:60px 0 20px;padding-top:24px;border-top:1px solid rgba(35,42,31,0.14);">
+      <span class="att-num" style="flex-shrink:0;font-family:'Cormorant Garamond',serif;font-size:64px;font-weight:500;line-height:0.85;color:#9aa68c;">01</span>
+      <h2 style="font-family:'Cormorant Garamond',serif;font-weight:500;font-size:32px;line-height:1.15;margin:0;color:#232a1f;">Milos, la sauvage aux plages multicolores</h2>
+    </div>
+    <p style="font-family:'Cormorant Garamond',serif;font-size:21px;line-height:1.85;color:#3a3a2e;margin:0 0 26px;">
+      Milos est mon coup de cœur absolu pour les couples qui veulent de l'inattendu. D'origine volcanique, ses côtes découpées révèlent des falaises de tuf blanc, des grottes marines accessibles uniquement en bateau et des plages aux teintes qui semblent peintes : ocre à Sarakiniko, rouge à Paleochori, turquoise à Kleftiko. C'est une île qui se découvre en mouvement, en scooter ou sur l'eau — pas sur une chaise longue.
+    </p>
+    <p style="font-family:'Cormorant Garamond',serif;font-size:21px;line-height:1.85;color:#3a3a2e;margin:0 0 26px;">
+      <strong style="font-weight:600;color:#232a1f;">Hébergement :</strong> Optez pour un boutique-hôtel à Plaka, le village principal perché en hauteur. D3 Milos (suites avec piscine privée) et Eréma Milos (suites avec vue mer) sont deux adresses de référence. Pour quelque chose de plus confidentiel, les maisons de pêcheurs rénovées du village de Klima — les fameuses <em>syrmatas</em> dont les portes colorées donnent directement sur l'eau — peuvent se louer à la semaine.
+    </p>
+    <p style="font-family:'Cormorant Garamond',serif;font-size:21px;line-height:1.85;color:#3a3a2e;margin:0 0 26px;">
+      <strong style="font-weight:600;color:#232a1f;">Activités :</strong> La balade en bateau privé autour de l'île est incontournable. Comptez une journée pour longer les falaises, nager dans les grottes de Kleftiko et pique-niquer dans une crique inaccessible à pied. Le soir, une table en terrasse à Plaka avec vue sur l'Égée, un verre d'Assyrtiko local, et le coucher de soleil — c'est simple, et c'est parfait.
+    </p>
+    <aside style="background:#f6f2ea;border:1px solid rgba(35,42,31,0.12);border-left:3px solid #5c6b53;padding:26px 30px;margin:30px 0;">
+      <p style="font-size:11px;letter-spacing:0.28em;text-transform:uppercase;color:#6f7d63;margin:0 0 16px;">Conseils pratiques</p>
+      <ul style="list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:11px;font-size:15.5px;line-height:1.55;color:#5b5446;">
+        <li style="display:flex;gap:12px;"><span style="color:#9aa68c;">✦</span><span><strong style="color:#232a1f;">Meilleure période :</strong> mai-juin ou septembre — en juillet-août les plages et les bateaux se remplissent vite.</span></li>
+        <li style="display:flex;gap:12px;"><span style="color:#9aa68c;">✦</span><span><strong style="color:#232a1f;">Depuis Athènes :</strong> ferry Seajets depuis Le Pirée (3h30 en rapide) ; ou vol intérieur Olympic Air / Sky Express (35 min), 2-3 départs par jour en saison.</span></li>
+        <li style="display:flex;gap:12px;"><span style="color:#9aa68c;">✦</span><span><strong style="color:#232a1f;">Sur place :</strong> louez un scooter dès votre arrivée — indispensable pour atteindre les plages les plus secrètes.</span></li>
+      </ul>
+    </aside>
+
+    <div class="att-row" style="display:flex;align-items:baseline;gap:28px;margin:60px 0 20px;padding-top:24px;border-top:1px solid rgba(35,42,31,0.14);">
+      <span class="att-num" style="flex-shrink:0;font-family:'Cormorant Garamond',serif;font-size:64px;font-weight:500;line-height:0.85;color:#9aa68c;">02</span>
+      <h2 style="font-family:'Cormorant Garamond',serif;font-weight:500;font-size:32px;line-height:1.15;margin:0;color:#232a1f;">Naxos, la généreuse</h2>
+    </div>
+    <p style="font-family:'Cormorant Garamond',serif;font-size:21px;line-height:1.85;color:#3a3a2e;margin:0 0 26px;">
+      Naxos est la plus grande des Cyclades, et de loin la plus généreuse : des plages de sable fin qui s'étendent à perte de vue, des villages de montagne perchés, des oliveraies, du fromage, du vin blanc local — et une douceur de vivre qui invite à rester plus longtemps que prévu. Moins mondaine que ses voisines, elle n'impose rien : elle propose, simplement.
+    </p>
+    <p style="font-family:'Cormorant Garamond',serif;font-size:21px;line-height:1.85;color:#3a3a2e;margin:0 0 26px;">
+      Pour les couples, Naxos offre un équilibre rare. On peut alterner baignades sur les plages d'Agios Prokopios et Plaka, randonnées légères dans les villages médiévaux d'Apeiranthos et Halki, et déjeuners longs sous les tonnelles. Louez une voiture et laissez-vous porter.
+    </p>
+    <p style="font-family:'Cormorant Garamond',serif;font-size:21px;line-height:1.85;color:#3a3a2e;margin:0 0 26px;">
+      <strong style="font-weight:600;color:#232a1f;">À ne pas manquer :</strong> la Portara, l'imposant portique du temple d'Apollon face à la mer, au coucher du soleil avec les pieds dans le sable. C'est l'un des plus beaux spectacles que j'aie vus en Méditerranée.
+    </p>
+    <aside style="background:#f6f2ea;border:1px solid rgba(35,42,31,0.12);border-left:3px solid #5c6b53;padding:26px 30px;margin:30px 0;">
+      <p style="font-size:11px;letter-spacing:0.28em;text-transform:uppercase;color:#6f7d63;margin:0 0 16px;">Conseils pratiques</p>
+      <ul style="list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:11px;font-size:15.5px;line-height:1.55;color:#5b5446;">
+        <li style="display:flex;gap:12px;"><span style="color:#9aa68c;">✦</span><span><strong style="color:#232a1f;">Meilleure période :</strong> mai à mi-octobre ; juin et septembre sont parfaits — moins de monde, eau encore très chaude.</span></li>
+        <li style="display:flex;gap:12px;"><span style="color:#9aa68c;">✦</span><span><strong style="color:#232a1f;">Depuis Athènes :</strong> ferry Blue Star depuis Le Pirée (5-6h direct) ; liaison catamaran depuis Mykonos (45 min).</span></li>
+        <li style="display:flex;gap:12px;"><span style="color:#9aa68c;">✦</span><span><strong style="color:#232a1f;">Hébergement :</strong> Naxos Palace Hotel ou Cavos Naxos côté plage, ou une maison de village à louer autour d'Halki pour une immersion totale.</span></li>
+      </ul>
+    </aside>
+
+    <div class="att-row" style="display:flex;align-items:baseline;gap:28px;margin:60px 0 20px;padding-top:24px;border-top:1px solid rgba(35,42,31,0.14);">
+      <span class="att-num" style="flex-shrink:0;font-family:'Cormorant Garamond',serif;font-size:64px;font-weight:500;line-height:0.85;color:#9aa68c;">03</span>
+      <h2 style="font-family:'Cormorant Garamond',serif;font-weight:500;font-size:32px;line-height:1.15;margin:0;color:#232a1f;">Sifnos, le secret des gastronomes</h2>
+    </div>
+    <p style="font-family:'Cormorant Garamond',serif;font-size:21px;line-height:1.85;color:#3a3a2e;margin:0 0 26px;">
+      Il y a des îles qu'on visite pour leurs plages. Sifnos, on s'y rend pour ses repas. Capitale culinaire des Cyclades, elle a vu naître le chef Nikolaos Tselementes — auteur du livre de cuisine grec de référence — et cette tradition gastronomique se ressent dans chaque taverne, chaque boulangerie, chaque terrasse en fin de journée. L'ambiance est douce, intimiste, un peu aristocratique sans jamais être prétentieuse.
+    </p>
+    <p style="font-family:'Cormorant Garamond',serif;font-size:21px;line-height:1.85;color:#3a3a2e;margin:0 0 26px;">
+      <strong style="font-weight:600;color:#232a1f;">Hébergement :</strong> Apollonia, le chef-lieu, est idéal pour se poser : ruelles blanches, bougainvilliers, et des hôtels de charme comme Elies Resort ou Verina Hotel avec piscine à débordement sur la mer. Sifnos House &amp; Spa, dans la crique de Kamares, est particulièrement prisé des couples pour son intimité.
+    </p>
+    <p style="font-family:'Cormorant Garamond',serif;font-size:21px;line-height:1.85;color:#3a3a2e;margin:0 0 26px;">
+      <strong style="font-weight:600;color:#232a1f;">À ne pas manquer :</strong> le sentier de randonnée Apollonia–Kastro (1h30, falaises et mer), un dîner de mezzes maison sous les étoiles, et la crique de Vathi au calme absolu hors août.
+    </p>
+    <aside style="background:#f6f2ea;border:1px solid rgba(35,42,31,0.12);border-left:3px solid #5c6b53;padding:26px 30px;margin:30px 0;">
+      <p style="font-size:11px;letter-spacing:0.28em;text-transform:uppercase;color:#6f7d63;margin:0 0 16px;">Conseils pratiques</p>
+      <ul style="list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:11px;font-size:15.5px;line-height:1.55;color:#5b5446;">
+        <li style="display:flex;gap:12px;"><span style="color:#9aa68c;">✦</span><span><strong style="color:#232a1f;">Meilleure période :</strong> mai, juin et septembre — l'île est très prisée en août, mieux vaut éviter.</span></li>
+        <li style="display:flex;gap:12px;"><span style="color:#9aa68c;">✦</span><span><strong style="color:#232a1f;">Depuis Athènes :</strong> ferry depuis Le Pirée (3h30 en rapide / 5-6h classique). Pas d'aéroport — se combine facilement avec Milos voisine (1h en inter-îles).</span></li>
+        <li style="display:flex;gap:12px;"><span style="color:#9aa68c;">✦</span><span><strong style="color:#232a1f;">Table recommandée :</strong> To Steki Tou Klarino à Exambela — mezzes maison, terrasse sous les étoiles.</span></li>
+      </ul>
+    </aside>
+
+    <div class="att-row" style="display:flex;align-items:baseline;gap:28px;margin:60px 0 20px;padding-top:24px;border-top:1px solid rgba(35,42,31,0.14);">
+      <span class="att-num" style="flex-shrink:0;font-family:'Cormorant Garamond',serif;font-size:64px;font-weight:500;line-height:0.85;color:#9aa68c;">04</span>
+      <h2 style="font-family:'Cormorant Garamond',serif;font-weight:500;font-size:32px;line-height:1.15;margin:0;color:#232a1f;">Folegandros, la préservée</h2>
+    </div>
+    <p style="font-family:'Cormorant Garamond',serif;font-size:21px;line-height:1.85;color:#3a3a2e;margin:0 0 26px;">
+      Si Folegandros était une personne, ce serait quelqu'un qui n'a pas de smartphone. Petite, escarpée, sans port touristique majeur, l'île résiste doucement à la vague du tourisme de masse — et c'est précisément pour ça qu'on l'aime. Son village de Chora est l'un des plus beaux des Cyclades : ruelles médiévales, places ombragées de figuiers, petites tavernes éclairées à la bougie. Ici, on marche, on boit du vin frais, on contemple. Aucune animation artificielle — juste l'île, vous deux, et l'horizon.
+    </p>
+    <p style="font-family:'Cormorant Garamond',serif;font-size:21px;line-height:1.85;color:#3a3a2e;margin:0 0 26px;">
+      <strong style="font-weight:600;color:#232a1f;">Hébergement :</strong> Anemi Hotel (piscine avec vue panoramique) et Fata Morgana sont deux adresses très appréciées à Chora. Pour l'intimité maximale, quelques maisons traditionnelles se louent à la semaine dans le village.
+    </p>
+    <p style="font-family:'Cormorant Garamond',serif;font-size:21px;line-height:1.85;color:#3a3a2e;margin:0 0 26px;">
+      <strong style="font-weight:600;color:#232a1f;">À ne pas manquer :</strong> la descente à pied vers la plage d'Agkali (30 min, eau d'un bleu profond), la randonnée jusqu'à l'église de Panagia perchée au sommet des falaises, et les tables de la place centrale de Chora à la tombée de la nuit.
+    </p>
+    <aside style="background:#f6f2ea;border:1px solid rgba(35,42,31,0.12);border-left:3px solid #5c6b53;padding:26px 30px;margin:30px 0;">
+      <p style="font-size:11px;letter-spacing:0.28em;text-transform:uppercase;color:#6f7d63;margin:0 0 16px;">Conseils pratiques</p>
+      <ul style="list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:11px;font-size:15.5px;line-height:1.55;color:#5b5446;">
+        <li style="display:flex;gap:12px;"><span style="color:#9aa68c;">✦</span><span><strong style="color:#232a1f;">Meilleure période :</strong> mai-juin ou septembre — l'île est minuscule et se remplit très vite en juillet-août.</span></li>
+        <li style="display:flex;gap:12px;"><span style="color:#9aa68c;">✦</span><span><strong style="color:#232a1f;">Depuis Athènes :</strong> ferry depuis Le Pirée (4h30 en rapide / 6-7h classique). Pas d'aéroport — se combine avec Naxos ou Milos en circuit inter-îles.</span></li>
+        <li style="display:flex;gap:12px;"><span style="color:#9aa68c;">✦</span><span><strong style="color:#232a1f;">Conseil :</strong> laissez votre voiture sur le continent — la quasi-totalité des déplacements se fait à pied sur l'île.</span></li>
+      </ul>
+    </aside>
+
+    <div style="background:#7d8e73;color:#f4efe6;padding:40px 40px 44px;margin:46px 0 40px;">
+      <p style="font-size:11px;letter-spacing:0.3em;text-transform:uppercase;color:rgba(244,239,230,0.8);margin:0 0 14px;">En résumé</p>
+      <p style="font-family:'Cormorant Garamond',serif;font-size:22px;line-height:1.6;margin:0;color:#f4efe6;">Milos pour les explorateurs, Naxos pour les épicuriens, Sifnos pour les gastronomes, Folegandros pour ceux qui veulent disparaître du monde : ces quatre îles offrent à votre lune de miel en Grèce un visage préservé et inattendu, à la hauteur des plus beaux souvenirs.</p>
+    </div>
+`
+  },
+  {
+    slug: 'denman-et-hornby-island-les-caraibes-secretes-du-canada',
+    title: 'Denman et Hornby Island : les Caraïbes secrètes du Canada',
+    titleHtml: 'Denman & Hornby Island,<br>les Caraïbes secrètes du <span style="font-style:italic;color:#5c6b53;">Canada</span>',
+    subtitle: 'Deux îles confidentielles aux plages turquoise, à quelques heures de Vancouver.',
+    category: 'Guide de voyage · Canada',
+    author: 'Fiona',
+    date: 'Juin 2026',
+    dateISO: '2026-06-21',
+    readingTime: '9 min',
+    hero: 'denman-hornby-hero.jpg',
+    heroAlt: 'Kayak sur les eaux calmes du détroit de Georgia au coucher du soleil',
+    heroPos: 'center 58%',
+    excerpt: 'Du sable blanc, une eau turquoise, une communauté d\'artistes bohème : à quelques heures de Vancouver, deux îles encore méconnues offrent un dépaysement total, loin des foules.',
+    ctaEyebrow: 'Envie de découvrir les Caraïbes du Canada ?',
+    ctaTitleHtml: `Le Canada hors des sentiers battus,<br><span style="font-family:'Sloop Script One',cursive;font-weight:400;font-size:clamp(44px,6vw,78px);line-height:0.9;color:#f4efe6;">façonné rien que pour vous</span>`,
+    ctaText: `Chez Saora, j'intègre volontiers ce genre de pépites confidentielles dans des itinéraires sur-mesure au Canada. Racontez-moi votre projet, et composons ensemble le voyage qui vous ressemble.`,
+    bodyHtml: `
     <p style="font-family:'Cormorant Garamond',serif;font-size:21px;line-height:1.85;color:#3a3a2e;margin:0 0 26px;">
       <span style="float:left;font-family:'Cormorant Garamond',serif;font-weight:600;font-size:78px;line-height:0.74;margin:8px 14px 0 0;color:#5c6b53;">I</span>l existe un coin du Canada où le sable est aussi blanc qu'aux Caraïbes et l'eau aussi turquoise qu'en Méditerranée… sauf qu'on est en Colombie-Britannique. Bienvenue sur <strong style="font-weight:600;color:#232a1f;">Denman et Hornby</strong>, deux îles confidentielles nichées dans le détroit de Georgia, au large de l'île de Vancouver.
     </p>
@@ -120,24 +227,25 @@
       <p style="font-family:'Cormorant Garamond',serif;font-size:22px;line-height:1.6;margin:0;color:#f4efe6;">Denman et Hornby offrent un visage inattendu du Canada : des plages dignes des tropiques, une nature préservée et une communauté artistique attachante, à seulement quelques heures de Vancouver. La destination idéale pour les voyageurs en quête d'authenticité, loin des circuits classiques.</p>
     </div>
 `
-    },
-    {
-      title: "Top 5 des attractions incontournables à Tulum",
-      titleHtml: 'Top 5 des attractions<br>incontournables à <span style="font-style:italic;color:#5c6b53;">Tulum</span>',
-      subtitle: "Le guide complet pour préparer votre voyage.",
-      category: "Guide de voyage · Mexique",
-      author: "Fiona",
-      date: "Juin 2026",
-      dateISO: "2026-06-15",
-      readingTime: "8 min",
-      hero: "tulum-hero.jpg",
-      heroAlt: "Pyramide maya du Yucatán sous un ciel des Caraïbes",
-      heroPos: "center 38%",
-      excerpt: "Ruines mayas face à la mer, cenotes cachées dans la jungle, plages de rêve et gastronomie locale : le guide complet pour préparer votre séjour.",
-      ctaEyebrow: "Vous préparez votre voyage à Tulum ?",
-      ctaTitleHtml: 'Le meilleur du Mexique,<br><span style="font-family:\'Sloop Script One\',cursive;font-weight:400;font-size:clamp(44px,6vw,78px);line-height:0.9;color:#f4efe6;">sans le stress de l\'organisation</span>',
-      ctaText: "Chez Saora, je conçois des itinéraires sur-mesure pour vous faire vivre le meilleur du Mexique. Racontez-moi votre projet, et composons-le ensemble.",
-      bodyHtml: `
+  },
+  {
+    slug: 'top-5-des-attractions-incontournables-a-tulum',
+    title: 'Top 5 des attractions incontournables à Tulum',
+    titleHtml: 'Top 5 des attractions<br>incontournables à <span style="font-style:italic;color:#5c6b53;">Tulum</span>',
+    subtitle: 'Le guide complet pour préparer votre voyage.',
+    category: 'Guide de voyage · Mexique',
+    author: 'Fiona',
+    date: 'Juin 2026',
+    dateISO: '2026-06-15',
+    readingTime: '8 min',
+    hero: 'tulum-hero.jpg',
+    heroAlt: 'Pyramide maya du Yucatán sous un ciel des Caraïbes',
+    heroPos: 'center 38%',
+    excerpt: "Ruines mayas face à la mer, cenotes cachées dans la jungle, plages de rêve et gastronomie locale : le guide complet pour préparer votre séjour.",
+    ctaEyebrow: 'Vous préparez votre voyage à Tulum ?',
+    ctaTitleHtml: `Le meilleur du Mexique,<br><span style="font-family:'Sloop Script One',cursive;font-weight:400;font-size:clamp(44px,6vw,78px);line-height:0.9;color:#f4efe6;">sans le stress de l'organisation</span>`,
+    ctaText: `Chez Saora, je conçois des itinéraires sur-mesure pour vous faire vivre le meilleur du Mexique. Racontez-moi votre projet, et composons-le ensemble.`,
+    bodyHtml: `
     <p style="font-family:'Cormorant Garamond',serif;font-size:21px;line-height:1.85;color:#3a3a2e;margin:0 0 26px;">
       <span style="float:left;font-family:'Cormorant Garamond',serif;font-weight:600;font-size:78px;line-height:0.74;margin:8px 14px 0 0;color:#5c6b53;">N</span>ichée sur la côte caraïbe du Yucatán, Tulum est devenue en quelques années l'une des destinations les plus convoitées du Mexique. Entre ruines mayas surplombant une mer turquoise, cenotes cristallines cachées dans la jungle et atmosphère bohème-chic, la ville a tout pour séduire les voyageurs en quête d'authenticité et de dépaysement.
     </p>
@@ -270,16 +378,5 @@
       <p style="font-family:'Cormorant Garamond',serif;font-size:22px;line-height:1.6;margin:0;color:#f4efe6;">Entre histoire maya, nature préservée, plages de rêve et gastronomie locale, Tulum concentre en un seul lieu tout ce qui fait la magie du Mexique. Que vous soyez plutôt culture, farniente ou aventure, ces 5 incontournables vous garantissent un séjour mémorable.</p>
     </div>
 `
-    }
-  ];
-
-  var BY_SLUG = {};
-  ARTICLES.forEach(function (a) {
-    a.slug = a.slug || slugify(a.title);
-    BY_SLUG[a.slug] = a;
-  });
-
-  window.SAORA_SLUGIFY = slugify;
-  window.SAORA_ARTICLES_LIST = ARTICLES;   // ordre d'affichage (le 1er = article par défaut)
-  window.SAORA_ARTICLES = BY_SLUG;          // accès par slug
-})();
+  }
+];
