@@ -6,6 +6,107 @@
 
 window.SAORA_ARTICLES_LIST = [
   {
+    slug: 'lune-de-miel-italie-toscane-vs-pouilles',
+    title: 'Lune de miel en Italie : Toscane ou Pouilles ?',
+    titleHtml: 'Lune de miel en Italie :<br><span style="font-style:italic;color:#5c6b53;">Toscane ou Pouilles ?</span>',
+    subtitle: 'Deux visages de l\'Italie romantique — la grandeur classique d\'un côté, l\'authenticité secrète de l\'autre. Lequel vous ressemble ?',
+    category: 'Guide de voyage · Italie',
+    author: 'Fiona',
+    date: 'Juin 2026',
+    dateISO: '2026-06-22',
+    readingTime: '8 min',
+    hero: 'toscane-florence-hero.jpg',
+    heroAlt: 'Vue sur Florence depuis les hauteurs, avec le Dôme et le Palazzo Vecchio encadrés par les cyprès et les pins',
+    heroPos: 'center 40%',
+    excerpt: 'Vignobles dorés ou oliveraies millénaires, agriturismo élégant ou masseria secrète — Toscane et Pouilles offrent deux façons radicalement différentes de vivre l\'Italie en amoureux. Voici laquelle vous correspond.',
+    ctaEyebrow: 'Votre lune de miel en Italie, sur-mesure',
+    ctaTitleHtml: 'L\'Italie à deux,<br><span style="font-family:\'Sloop Script One\',cursive;font-weight:400;">composée rien que pour vous</span>',
+    ctaText: "C'est moi, Fiona, qui prendrai en charge la conception de votre voyage, du premier brouillon jusqu'au jour du départ. Toscane, Pouilles, ou les deux — racontez-moi votre projet, et construisons-le ensemble.",
+    bodyHtml: `
+    <p style="font-family:'Cormorant Garamond',serif;font-size:21px;line-height:1.85;color:#3a3a2e;margin:0 0 26px;">
+      <span style="float:left;font-family:'Cormorant Garamond',serif;font-weight:600;font-size:78px;line-height:0.74;margin:8px 14px 0 0;color:#5c6b53;">I</span>l y a des pays où l'on hésite avant même d'avoir bouclé sa valise. L'Italie en fait partie — non pas parce qu'elle manque de charme, mais parce qu'elle en a trop. Et quand la question se pose pour une lune de miel, l'hésitation se concentre souvent sur deux régions que tout oppose en apparence : la Toscane, classique et lumineuse, et les Pouilles, secrètes et sensuelles. Deux façons d'aimer l'Italie. Deux façons de commencer une vie à deux.
+    </p>
+
+    <div class="att-row" style="display:flex;align-items:baseline;gap:28px;margin:60px 0 20px;padding-top:24px;border-top:1px solid rgba(35,42,31,0.14);">
+      <span class="att-num" style="flex-shrink:0;font-family:'Cormorant Garamond',serif;font-size:64px;font-weight:500;line-height:0.85;color:#9aa68c;">01</span>
+      <h2 style="font-family:'Cormorant Garamond',serif;font-weight:500;font-size:32px;line-height:1.15;margin:0;color:#232a1f;">La Toscane : le grand classique, mais pas pour les mauvaises raisons</h2>
+    </div>
+    <p style="font-family:'Cormorant Garamond',serif;font-size:21px;line-height:1.85;color:#3a3a2e;margin:0 0 26px;">
+      La Toscane a tout du cliché — et c'est justement pourquoi il faut s'y pencher sérieusement. Sous les allées de cyprès et dans les caves du Chianti se cache une destination qui tient ses promesses mieux que presque n'importe quelle autre en Europe. C'est une région faite pour les couples qui aiment prendre leur temps : une terrasse avec vue sur les collines pour le café du matin, des dîners qui s'étirent, du vin bu lentement. Ceux qui voyagent pour la première fois ensemble comme les grands voyageurs en quête d'une parenthèse de beauté absolue y trouvent leur compte.
+    </p>
+    <p style="font-family:'Cormorant Garamond',serif;font-size:21px;line-height:1.85;color:#3a3a2e;margin:0 0 26px;">
+      <strong style="font-weight:600;color:#232a1f;">Hébergement :</strong> L'agriturismo toscan est une institution à part entière. Les plus beaux ont tout du boutique-hôtel : piscine à débordement face aux vignes, suite avec pierres apparentes et baldaquin, table d'hôte au milieu des oliviers. Dans le Val d'Orcia, Adler Thermae Spa &amp; Relax Resort (Bagno Vignoni) propose des bains thermaux privés — un luxe rare pour une lune de miel. Autour de Montalcino, Castello Banfi il Borgo ou Castiglion del Bosco combinent vignoble, château médiéval et gastronomie d'exception. Pour quelque chose de plus intime, des agriturismo comme Fontanella ou Poggio Covili dans les Crete Senesi offrent une immersion totale loin de tout.
+    </p>
+    <p style="font-family:'Cormorant Garamond',serif;font-size:21px;line-height:1.85;color:#3a3a2e;margin:0 0 26px;">
+      <strong style="font-weight:600;color:#232a1f;">Activités :</strong> La Toscane se vit sur la route. Programmez quelques jours sans plan fixe : une matinée à Pienza pour le Pecorino et les vues sur le Val d'Orcia, une après-midi chez un vigneron du Brunello qui ouvre sa cave, une escapade à San Gimignano avant l'afflux des groupes. Florence mérite une journée — les Offices, le Ponte Vecchio au crépuscule, un Negroni en terrasse sur l'Oltrarno. Mais ce sont les petites routes entre Sienne et Montalcino, au lever du soleil quand la brume est encore dans les vallées, que je conseille à tous les couples.
+    </p>
+    <aside style="background:#f6f2ea;border:1px solid rgba(35,42,31,0.12);border-left:3px solid #5c6b53;padding:26px 30px;margin:30px 0;">
+      <p style="font-size:11px;letter-spacing:0.28em;text-transform:uppercase;color:#6f7d63;margin:0 0 16px;">Conseils pratiques</p>
+      <ul style="list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:11px;font-size:15.5px;line-height:1.55;color:#5b5446;">
+        <li style="display:flex;gap:12px;"><span style="color:#9aa68c;">✦</span><span><strong style="color:#232a1f;">Meilleure période :</strong> mai-juin et septembre. Juillet-août : chaleur intense (35-38 °C) et routes touristiques bondées. Avril est d'une beauté rare, avec les coquelicots dans les champs.</span></li>
+        <li style="display:flex;gap:12px;"><span style="color:#9aa68c;">✦</span><span><strong style="color:#232a1f;">Déplacements :</strong> voiture indispensable dès que vous quittez Florence ou Sienne. Pas de transport en commun entre les villages.</span></li>
+        <li style="display:flex;gap:12px;"><span style="color:#9aa68c;">✦</span><span><strong style="color:#232a1f;">À éviter :</strong> rester en hôtel de centre-ville toute la durée du séjour — la campagne toscane est l'essence du voyage.</span></li>
+        <li style="display:flex;gap:12px;"><span style="color:#9aa68c;">✦</span><span><strong style="color:#232a1f;">Budget hébergement :</strong> 200-400 €/nuit en agriturismo de charme, davantage pour un relais château.</span></li>
+      </ul>
+    </aside>
+
+    <div class="att-row" style="display:flex;align-items:baseline;gap:28px;margin:60px 0 20px;padding-top:24px;border-top:1px solid rgba(35,42,31,0.14);">
+      <span class="att-num" style="flex-shrink:0;font-family:'Cormorant Garamond',serif;font-size:64px;font-weight:500;line-height:0.85;color:#9aa68c;">02</span>
+      <h2 style="font-family:'Cormorant Garamond',serif;font-weight:500;font-size:32px;line-height:1.15;margin:0;color:#232a1f;">Les Pouilles : l'Italie secrète, pour ceux qui veulent un coup de foudre</h2>
+    </div>
+    <p style="font-family:'Cormorant Garamond',serif;font-size:21px;line-height:1.85;color:#3a3a2e;margin:0 0 26px;">
+      Les Pouilles, c'est l'Italie que vous n'attendiez pas. Moins connue, moins photographiée, moins filtrée — et c'est exactement ce qui la rend si précieuse pour une lune de miel. On y arrive sans trop savoir ce qu'on va trouver. On repart avec l'impression d'avoir découvert quelque chose de rare. L'odeur des orangers en fleur, la couleur du calcaire blanc d'Ostuni au coucher du soleil, le goût du Primitivo di Manduria avec une assiette d'orecchiette aux tomates de saison — les sens ne chôment jamais. Pour les couples qui fuient le circuit classique, c'est une révélation.
+    </p>
+    <p style="font-family:'Cormorant Garamond',serif;font-size:21px;line-height:1.85;color:#3a3a2e;margin:0 0 26px;">
+      <strong style="font-weight:600;color:#232a1f;">Hébergement :</strong> La masseria, c'est l'équivalent apulien de l'agriturismo toscan — avec quelque chose en plus : une grandeur discrète, une certaine noblesse paysanne. Masseria Torre Coccaro (Fasano) est l'une des plus belles de la région, avec grotte marine privée, spa et oliveraies centenaires. Masseria Il Frantoio (Ostuni) est plus familiale, plus intimiste — la table d'hôte du soir y est légendaire. Pour une immersion totale, des masserias plus petites autour d'Ostuni ou de Martina Franca se louent à la semaine, avec piscine et vue sur la Valle d'Itria.
+    </p>
+    <p style="font-family:'Cormorant Garamond',serif;font-size:21px;line-height:1.85;color:#3a3a2e;margin:0 0 26px;">
+      <strong style="font-weight:600;color:#232a1f;">Activités :</strong> La Vallée d'Itria est le cœur romantique des Pouilles : Alberobello et ses trulli classés UNESCO, Locorotondo et ses ruelles blanches, Martina Franca et sa douceur baroque. Ostuni mérite d'être visitée tôt le matin, avant la chaleur. Polignano a Mare — accrochée à des falaises calcaires au-dessus de l'Adriatique — est l'un des endroits les plus vertigineux d'Italie. Plus au sud, dans le Salento, les plages de Torre dell'Orso ou Porto Selvaggio rivalisent avec n'importe quelle côte méditerranéenne. Et partout, la gastronomie : cours de cuisine en masseria, dégustation de Primitivo chez un vigneron de Tarente, pain d'Altamura (AOP) acheté chaud à la boulangerie du village.
+    </p>
+    <aside style="background:#f6f2ea;border:1px solid rgba(35,42,31,0.12);border-left:3px solid #5c6b53;padding:26px 30px;margin:30px 0;">
+      <p style="font-size:11px;letter-spacing:0.28em;text-transform:uppercase;color:#6f7d63;margin:0 0 16px;">Conseils pratiques</p>
+      <ul style="list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:11px;font-size:15.5px;line-height:1.55;color:#5b5446;">
+        <li style="display:flex;gap:12px;"><span style="color:#9aa68c;">✦</span><span><strong style="color:#232a1f;">Meilleure période :</strong> juin et septembre. En juillet-août, les Pouilles accueillent surtout des Italiens en vacances — ambiance vivante mais hôtels chers et plages bondées.</span></li>
+        <li style="display:flex;gap:12px;"><span style="color:#9aa68c;">✦</span><span><strong style="color:#232a1f;">Déplacements :</strong> voiture fortement recommandée. Aéroport de Bari pour l'ensemble de la région ; Brindisi idéal pour le Salento.</span></li>
+        <li style="display:flex;gap:12px;"><span style="color:#9aa68c;">✦</span><span><strong style="color:#232a1f;">À ne pas manquer :</strong> un dîner à la table d'hôte d'une masseria — souvent plus mémorable que n'importe quel restaurant étoilé.</span></li>
+        <li style="display:flex;gap:12px;"><span style="color:#9aa68c;">✦</span><span><strong style="color:#232a1f;">Budget hébergement :</strong> 150-350 €/nuit en masseria ; les plus exclusives (Torre Coccaro, Borgo Egnazia) dépassent 500 €/nuit en haute saison.</span></li>
+      </ul>
+    </aside>
+
+    <div class="att-row" style="display:flex;align-items:baseline;gap:28px;margin:60px 0 20px;padding-top:24px;border-top:1px solid rgba(35,42,31,0.14);">
+      <span class="att-num" style="flex-shrink:0;font-family:'Cormorant Garamond',serif;font-size:64px;font-weight:500;line-height:0.85;color:#9aa68c;">03</span>
+      <h2 style="font-family:'Cormorant Garamond',serif;font-weight:500;font-size:32px;line-height:1.15;margin:0;color:#232a1f;">Pour vous aider à trancher</h2>
+    </div>
+    <p style="font-family:'Cormorant Garamond',serif;font-size:21px;line-height:1.85;color:#3a3a2e;margin:0 0 26px;">
+      Voici les deux profils de couple qui correspondent le mieux à chaque destination — et un tableau rapide pour décider.
+    </p>
+    <div style="overflow-x:auto;margin:0 0 36px;">
+      <table style="width:100%;border-collapse:collapse;font-size:15.5px;color:#3a3a2e;">
+        <thead>
+          <tr style="border-bottom:2px solid #5c6b53;">
+            <th style="padding:12px 16px;text-align:left;font-family:'Cormorant Garamond',serif;font-size:17px;font-weight:600;color:#232a1f;width:30%;"></th>
+            <th style="padding:12px 16px;text-align:left;font-family:'Cormorant Garamond',serif;font-size:17px;font-weight:600;color:#232a1f;">Toscane</th>
+            <th style="padding:12px 16px;text-align:left;font-family:'Cormorant Garamond',serif;font-size:17px;font-weight:600;color:#232a1f;">Pouilles</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="border-bottom:1px solid rgba(35,42,31,0.1);"><td style="padding:11px 16px;font-weight:600;color:#5c6b53;">Ambiance</td><td style="padding:11px 16px;">Grandeur classique, romantisme assumé</td><td style="padding:11px 16px;">Authenticité, sensorialité, douceur de vivre</td></tr>
+          <tr style="border-bottom:1px solid rgba(35,42,31,0.1);background:#f6f2ea;"><td style="padding:11px 16px;font-weight:600;color:#5c6b53;">Paysage</td><td style="padding:11px 16px;">Collines, cyprès, vignobles, villages médiévaux</td><td style="padding:11px 16px;">Oliveraies, mer cristalline, trulli, villes blanches</td></tr>
+          <tr style="border-bottom:1px solid rgba(35,42,31,0.1);"><td style="padding:11px 16px;font-weight:600;color:#5c6b53;">Hébergement</td><td style="padding:11px 16px;">Agriturismo, relais château, vignoble</td><td style="padding:11px 16px;">Masseria, villa en pierres sèches</td></tr>
+          <tr style="border-bottom:1px solid rgba(35,42,31,0.1);background:#f6f2ea;"><td style="padding:11px 16px;font-weight:600;color:#5c6b53;">Gastronomie</td><td style="padding:11px 16px;">Bistecca, Brunello, truffes, pasta fresca</td><td style="padding:11px 16px;">Orecchiette, burrata, Primitivo, fruits de mer</td></tr>
+          <tr style="border-bottom:1px solid rgba(35,42,31,0.1);"><td style="padding:11px 16px;font-weight:600;color:#5c6b53;">Idéal pour</td><td style="padding:11px 16px;">Premier grand voyage romantique, amateurs de culture et de vin</td><td style="padding:11px 16px;">Couples aventuriers, fuyards du circuit classique</td></tr>
+          <tr style="border-bottom:1px solid rgba(35,42,31,0.1);background:#f6f2ea;"><td style="padding:11px 16px;font-weight:600;color:#5c6b53;">Meilleure période</td><td style="padding:11px 16px;">Mai-juin, septembre</td><td style="padding:11px 16px;">Juin, septembre</td></tr>
+          <tr style="border-bottom:1px solid rgba(35,42,31,0.1);"><td style="padding:11px 16px;font-weight:600;color:#5c6b53;">À combiner avec</td><td style="padding:11px 16px;">Rome (2-3 jours)</td><td style="padding:11px 16px;">Côte amalfitaine ou Sicile</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div style="background:#7d8e73;border-radius:4px;padding:32px 36px;margin:48px 0 0;">
+      <p style="font-family:'Cormorant Garamond',serif;font-size:20px;line-height:1.8;color:#fff;margin:0;">Toscane ou Pouilles — la vraie question, c'est celle que vous vous posez sur vous-mêmes : êtes-vous le genre de couple à vouloir un coucher de soleil sur le Val d'Orcia avec un verre de Brunello, ou à vous perdre dans les ruelles blanches d'Ostuni avant un dîner en masseria sous les étoiles ? L'une offre la perfection ; l'autre, la surprise. Les deux méritent une lune de miel.</p>
+    </div>
+    `
+  },
+  {
     slug: 'lune-de-miel-grece-iles-meconnues',
     title: 'Lune de miel en Grèce : quatre îles pour fuir Santorin',
     titleHtml: 'Lune de miel en Grèce :<br>quatre îles pour fuir <span style="font-style:italic;color:#5c6b53;">Santorin</span>',
@@ -247,136 +348,136 @@ window.SAORA_ARTICLES_LIST = [
     ctaText: `Chez Saora, je conçois des itinéraires sur-mesure pour vous faire vivre le meilleur du Mexique. Racontez-moi votre projet, et composons-le ensemble.`,
     bodyHtml: `
     <p style="font-family:'Cormorant Garamond',serif;font-size:21px;line-height:1.85;color:#3a3a2e;margin:0 0 26px;">
-      <span style="float:left;font-family:'Cormorant Garamond',serif;font-weight:600;font-size:78px;line-height:0.74;margin:8px 14px 0 0;color:#5c6b53;">N</span>ichée sur la côte caraïbe du Yucatán, Tulum est devenue en quelques années l'une des destinations les plus convoitées du Mexique. Entre ruines mayas surplombant une mer turquoise, cenotes cristallines cachées dans la jungle et atmosphère bohème-chic, la ville a tout pour séduire les voyageurs en quête d'authenticité et de dépaysement.
-    </p>
-    <p style="font-family:'Cormorant Garamond',serif;font-size:21px;line-height:1.85;color:#3a3a2e;margin:0 0 8px;">
-      Mais avec autant de choses à voir, difficile de savoir par où commencer. Voici ma sélection des 5 attractions incontournables à ne pas manquer lors de votre séjour à Tulum, avec tous les conseils pratiques pour en profiter pleinement.
-    </p>
-
-    <div style="margin:54px 0 0;">
-      <div class="att-row" style="display:flex;align-items:baseline;gap:20px;border-top:1px solid rgba(35,42,31,0.16);padding-top:26px;">
-        <span class="att-num" style="flex-shrink:0;font-family:'Cormorant Garamond',serif;font-size:64px;line-height:0.8;color:#9aa68c;">01</span>
-        <h2 style="font-family:'Cormorant Garamond',serif;font-weight:500;font-size:clamp(28px,3.3vw,38px);line-height:1.1;margin:0;color:#232a1f;">Les ruines mayas de Tulum, face à la mer des Caraïbes</h2>
-      </div>
-    </div>
-    <p style="font-family:'Cormorant Garamond',serif;font-size:21px;line-height:1.85;color:#3a3a2e;margin:26px 0;">
-      Impossible de visiter Tulum sans s'arrêter devant son site archéologique le plus emblématique. Perchées sur une falaise de 12 mètres dominant la mer turquoise des Caraïbes, les ruines de Tulum offrent un décor à couper le souffle, unique parmi tous les sites mayas du Mexique : c'est en effet la seule cité maya construite directement en bord de mer.
-    </p>
-    <p style="font-family:'Cormorant Garamond',serif;font-size:21px;line-height:1.85;color:#3a3a2e;margin:26px 0;">
-      Le site, qui s'étend sur plusieurs hectares, abrite notamment El Castillo, le temple principal qui servait autrefois de phare aux navigateurs mayas, ainsi que le Temple du Dieu Descendant et le Temple des Fresques, dont les peintures murales témoignent encore de la richesse artistique de cette civilisation.
-    </p>
-    <aside style="background:#f6f2ea;border:1px solid rgba(35,42,31,0.12);border-left:3px solid #5c6b53;padding:26px 30px;margin:30px 0;">
-      <p style="font-size:11px;letter-spacing:0.28em;text-transform:uppercase;color:#6f7d63;margin:0 0 16px;">Conseils pratiques</p>
-      <ul style="list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:11px;font-size:15.5px;line-height:1.55;color:#5b5446;">
-        <li style="display:flex;gap:12px;"><span style="color:#9aa68c;">✦</span><span>Arrivez dès l'ouverture (8h) pour éviter la foule et la chaleur écrasante de la mi-journée.</span></li>
-        <li style="display:flex;gap:12px;"><span style="color:#9aa68c;">✦</span><span>Comptez environ 1h30 à 2h pour la visite.</span></li>
-        <li style="display:flex;gap:12px;"><span style="color:#9aa68c;">✦</span><span>Portez un chapeau et de la crème solaire, l'ombre est rare sur le site.</span></li>
-        <li style="display:flex;gap:12px;"><span style="color:#9aa68c;">✦</span><span>En contrebas, une petite plage permet de se baigner avec vue sur les ruines : un moment vraiment magique.</span></li>
-      </ul>
-    </aside>
-
-    <div style="margin:54px 0 0;">
-      <div class="att-row" style="display:flex;align-items:baseline;gap:20px;border-top:1px solid rgba(35,42,31,0.16);padding-top:26px;">
-        <span class="att-num" style="flex-shrink:0;font-family:'Cormorant Garamond',serif;font-size:64px;line-height:0.8;color:#9aa68c;">02</span>
-        <h2 style="font-family:'Cormorant Garamond',serif;font-weight:500;font-size:clamp(28px,3.3vw,38px);line-height:1.1;margin:0;color:#232a1f;">Les cenotes, joyaux cachés de la jungle</h2>
-      </div>
-    </div>
-    <p style="font-family:'Cormorant Garamond',serif;font-size:21px;line-height:1.85;color:#3a3a2e;margin:26px 0;">
-      Le Yucatán repose sur un sous-sol calcaire criblé de grottes et de rivières souterraines, qui ont donné naissance à des milliers de cenotes : des puits naturels d'eau douce, parfois ouverts au ciel, parfois cachés dans des grottes obscures. Pour les Mayas, ces lieux étaient sacrés, considérés comme des portes vers le monde souterrain. Aux alentours de Tulum, deux cenotes sortent particulièrement du lot :
-    </p>
-    <div style="display:flex;flex-direction:column;gap:16px;margin:0 0 26px;">
-      <p style="font-family:'Cormorant Garamond',serif;font-size:20px;line-height:1.7;color:#3a3a2e;margin:0;"><strong style="font-weight:600;color:#232a1f;">Gran Cenote</strong> — facilement accessible, avec une eau cristalline peu profonde idéale pour le snorkeling. On y croise souvent des tortues et de petits poissons.</p>
-      <p style="font-family:'Cormorant Garamond',serif;font-size:20px;line-height:1.7;color:#3a3a2e;margin:0;"><strong style="font-weight:600;color:#232a1f;">Dos Ojos</strong> — un système de grottes plus spectaculaire, parfait pour la plongée et le snorkeling, avec des jeux de lumière saisissants qui traversent l'eau.</p>
-    </div>
-    <aside style="background:#f6f2ea;border:1px solid rgba(35,42,31,0.12);border-left:3px solid #5c6b53;padding:26px 30px;margin:30px 0;">
-      <p style="font-size:11px;letter-spacing:0.28em;text-transform:uppercase;color:#6f7d63;margin:0 0 16px;">Conseils pratiques</p>
-      <ul style="list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:11px;font-size:15.5px;line-height:1.55;color:#5b5446;">
-        <li style="display:flex;gap:12px;"><span style="color:#9aa68c;">✦</span><span>Utilisez uniquement de la crème solaire biodégradable (souvent obligatoire) pour préserver l'écosystème fragile.</span></li>
-        <li style="display:flex;gap:12px;"><span style="color:#9aa68c;">✦</span><span>Une douche est généralement exigée avant la baignade.</span></li>
-        <li style="display:flex;gap:12px;"><span style="color:#9aa68c;">✦</span><span>Prévoyez des chaussures aquatiques, certaines zones rocheuses peuvent être glissantes.</span></li>
-        <li style="display:flex;gap:12px;"><span style="color:#9aa68c;">✦</span><span>Privilégiez une visite en début de matinée, avant l'arrivée des groupes.</span></li>
-      </ul>
-    </aside>
-
-    <div style="margin:54px 0 0;">
-      <div class="att-row" style="display:flex;align-items:baseline;gap:20px;border-top:1px solid rgba(35,42,31,0.16);padding-top:26px;">
-        <span class="att-num" style="flex-shrink:0;font-family:'Cormorant Garamond',serif;font-size:64px;line-height:0.8;color:#9aa68c;">03</span>
-        <h2 style="font-family:'Cormorant Garamond',serif;font-weight:500;font-size:clamp(28px,3.3vw,38px);line-height:1.1;margin:0;color:#232a1f;">La zone hôtelière de Tulum Beach</h2>
-      </div>
-    </div>
-    <p style="font-family:'Cormorant Garamond',serif;font-size:21px;line-height:1.85;color:#3a3a2e;margin:26px 0;">
-      La fameuse « Zona Hotelera » de Tulum s'étire le long d'une plage de sable blanc bordée de cocotiers, sur près de 10 kilomètres. C'est ici que se concentrent les hôtels-boutiques, les beach clubs tendance et les restaurants les plus photogéniques de la ville, mélangeant architecture en bois flotté, décoration bohème et ambiance décontractée.
-    </p>
-    <p style="font-family:'Cormorant Garamond',serif;font-size:21px;line-height:1.85;color:#3a3a2e;margin:26px 0;">
-      Même sans y loger, la zone hôtelière mérite une journée complète : on peut y louer un vélo pour sillonner la route principale, s'arrêter dans un beach club, déguster un ceviche les pieds dans le sable, ou simplement profiter de l'une des plus belles plages du Mexique.
-    </p>
-    <aside style="background:#f6f2ea;border:1px solid rgba(35,42,31,0.12);border-left:3px solid #5c6b53;padding:26px 30px;margin:30px 0;">
-      <p style="font-size:11px;letter-spacing:0.28em;text-transform:uppercase;color:#6f7d63;margin:0 0 16px;">Conseils pratiques</p>
-      <ul style="list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:11px;font-size:15.5px;line-height:1.55;color:#5b5446;">
-        <li style="display:flex;gap:12px;"><span style="color:#9aa68c;">✦</span><span>Le vélo est le moyen de transport le plus pratique et le plus agréable pour explorer la zone.</span></li>
-        <li style="display:flex;gap:12px;"><span style="color:#9aa68c;">✦</span><span>Les beach clubs demandent souvent une consommation minimale pour accéder à leurs transats.</span></li>
-        <li style="display:flex;gap:12px;"><span style="color:#9aa68c;">✦</span><span>Privilégiez le lever ou le coucher du soleil pour des photos sans trop de monde.</span></li>
-        <li style="display:flex;gap:12px;"><span style="color:#9aa68c;">✦</span><span>Les algues sargasses varient selon la saison ; renseignez-vous avant de réserver si la plage est votre priorité.</span></li>
-      </ul>
-    </aside>
-
-    <div style="margin:54px 0 0;">
-      <div class="att-row" style="display:flex;align-items:baseline;gap:20px;border-top:1px solid rgba(35,42,31,0.16);padding-top:26px;">
-        <span class="att-num" style="flex-shrink:0;font-family:'Cormorant Garamond',serif;font-size:64px;line-height:0.8;color:#9aa68c;">04</span>
-        <h2 style="font-family:'Cormorant Garamond',serif;font-weight:500;font-size:clamp(28px,3.3vw,38px);line-height:1.1;margin:0;color:#232a1f;">La réserve de biosphère de Sian Ka'an</h2>
-      </div>
-    </div>
-    <p style="font-family:'Cormorant Garamond',serif;font-size:21px;line-height:1.85;color:#3a3a2e;margin:26px 0;">
-      Classée au patrimoine mondial de l'UNESCO, la réserve de Sian Ka'an (« là où naît le ciel » en maya) s'étend sur plus de 500 000 hectares au sud de Tulum. C'est l'une des zones protégées les plus riches en biodiversité d'Amérique du Nord, abritant mangroves, lagons, forêts tropicales et récifs coralliens.
-    </p>
-    <p style="font-family:'Cormorant Garamond',serif;font-size:21px;line-height:1.85;color:#3a3a2e;margin:26px 0;">
-      Une excursion permet d'observer une faune exceptionnelle : flamants roses, lamantins, crocodiles, tortues marines et plus de 300 espèces d'oiseaux. Les visites guidées en bateau à travers les canaux mayas et les lagons aux eaux multicolores sont une expérience à part, loin de l'agitation touristique du centre de Tulum.
-    </p>
-    <aside style="background:#f6f2ea;border:1px solid rgba(35,42,31,0.12);border-left:3px solid #5c6b53;padding:26px 30px;margin:30px 0;">
-      <p style="font-size:11px;letter-spacing:0.28em;text-transform:uppercase;color:#6f7d63;margin:0 0 16px;">Conseils pratiques</p>
-      <ul style="list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:11px;font-size:15.5px;line-height:1.55;color:#5b5446;">
-        <li style="display:flex;gap:12px;"><span style="color:#9aa68c;">✦</span><span>La réserve n'est accessible qu'avec un guide agréé : réservez votre excursion à l'avance.</span></li>
-        <li style="display:flex;gap:12px;"><span style="color:#9aa68c;">✦</span><span>Comptez une demi-journée à une journée complète selon le circuit choisi.</span></li>
-        <li style="display:flex;gap:12px;"><span style="color:#9aa68c;">✦</span><span>Emportez des jumelles si vous êtes passionné d'observation des oiseaux.</span></li>
-        <li style="display:flex;gap:12px;"><span style="color:#9aa68c;">✦</span><span>La meilleure période pour observer la faune se situe tôt le matin.</span></li>
-      </ul>
-    </aside>
-
-    <div style="margin:54px 0 0;">
-      <div class="att-row" style="display:flex;align-items:baseline;gap:20px;border-top:1px solid rgba(35,42,31,0.16);padding-top:26px;">
-        <span class="att-num" style="flex-shrink:0;font-family:'Cormorant Garamond',serif;font-size:64px;line-height:0.8;color:#9aa68c;">05</span>
-        <h2 style="font-family:'Cormorant Garamond',serif;font-weight:500;font-size:clamp(28px,3.3vw,38px);line-height:1.1;margin:0;color:#232a1f;">El Mercado et la gastronomie locale</h2>
-      </div>
-    </div>
-    <p style="font-family:'Cormorant Garamond',serif;font-size:21px;line-height:1.85;color:#3a3a2e;margin:26px 0;">
-      Pour une immersion plus authentique, direction le centre-ville de Tulum (Tulum Pueblo) et ses marchés locaux comme El Mercadito, où l'on trouve fruits exotiques, épices, artisanat local et surtout une cuisine yucatèque savoureuse à prix doux, loin des tarifs parfois élevés de la zone hôtelière.
-    </p>
-    <p style="font-family:'Cormorant Garamond',serif;font-size:21px;line-height:1.85;color:#3a3a2e;margin:26px 0;">
-      C'est l'occasion de goûter aux spécialités régionales : cochinita pibil (porc mariné cuit à l'étouffée), tacos al pastor, panuchos, ou encore un verre d'agua de horchata bien frais. Le centre-ville permet aussi de découvrir le Tulum du quotidien, plus authentique et moins formaté pour les touristes.
-    </p>
-    <aside style="background:#f6f2ea;border:1px solid rgba(35,42,31,0.12);border-left:3px solid #5c6b53;padding:26px 30px;margin:30px 0;">
-      <p style="font-size:11px;letter-spacing:0.28em;text-transform:uppercase;color:#6f7d63;margin:0 0 16px;">Conseils pratiques</p>
-      <ul style="list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:11px;font-size:15.5px;line-height:1.55;color:#5b5446;">
-        <li style="display:flex;gap:12px;"><span style="color:#9aa68c;">✦</span><span>Les prix dans le centre-ville sont généralement 2 à 3 fois moins élevés que dans la zone hôtelière.</span></li>
-        <li style="display:flex;gap:12px;"><span style="color:#9aa68c;">✦</span><span>Privilégiez les stands où mangent les habitants, gage de fraîcheur.</span></li>
-        <li style="display:flex;gap:12px;"><span style="color:#9aa68c;">✦</span><span>Le marché est particulièrement animé en fin d'après-midi et en soirée.</span></li>
-        <li style="display:flex;gap:12px;"><span style="color:#9aa68c;">✦</span><span>N'hésitez pas à négocier (avec courtoisie) sur les marchés d'artisanat.</span></li>
-      </ul>
-    </aside>
-
-    <h2 style="font-family:'Cormorant Garamond',serif;font-weight:500;font-size:32px;line-height:1.15;margin:54px 0 16px;color:#232a1f;">Quand partir à Tulum ?</h2>
-    <p style="font-family:'Cormorant Garamond',serif;font-size:21px;line-height:1.85;color:#3a3a2e;margin:0 0 26px;">
-      La meilleure période s'étend de <strong style="font-weight:600;color:#232a1f;">novembre à avril</strong>, durant la saison sèche, avec des températures agréables et moins d'humidité. La saison des pluies (juin à octobre) reste praticable mais s'accompagne d'averses tropicales fréquentes, généralement courtes, et d'un risque accru d'ouragans en fin de saison. Attention également à la saison des sargasses (algues brunes), particulièrement présente entre avril et août selon les années.
-    </p>
-    <h2 style="font-family:'Cormorant Garamond',serif;font-weight:500;font-size:32px;line-height:1.15;margin:44px 0 16px;color:#232a1f;">Comment se déplacer à Tulum ?</h2>
-    <p style="font-family:'Cormorant Garamond',serif;font-size:21px;line-height:1.85;color:#3a3a2e;margin:0 0 26px;">
-      Tulum se découvre facilement à vélo, notamment pour relier le centre-ville à la zone hôtelière et aux ruines. Pour les excursions plus éloignées (cenotes, Sian Ka'an), la location de voiture ou les excursions organisées restent les options les plus confortables. Les taxis sont également nombreux, avec des tarifs fixes à négocier avant le départ.
-    </p>
-
-    <div style="background:#7d8e73;color:#f4efe6;padding:40px 40px 44px;margin:46px 0 40px;">
-      <p style="font-size:11px;letter-spacing:0.3em;text-transform:uppercase;color:rgba(244,239,230,0.8);margin:0 0 14px;">En résumé</p>
-      <p style="font-family:'Cormorant Garamond',serif;font-size:22px;line-height:1.6;margin:0;color:#f4efe6;">Entre histoire maya, nature préservée, plages de rêve et gastronomie locale, Tulum concentre en un seul lieu tout ce qui fait la magie du Mexique. Que vous soyez plutôt culture, farniente ou aventure, ces 5 incontournables vous garantissent un séjour mémorable.</p>
-    </div>
-`
+          <span style="float:left;font-family:'Cormorant Garamond',serif;font-weight:600;font-size:78px;line-height:0.74;margin:8px 14px 0 0;color:#5c6b53;">N</span>ichée sur la côte caraïbe du Yucatán, Tulum est devenue en quelques années l'une des destinations les plus convoitées du Mexique. Entre ruines mayas surplombant une mer turquoise, cenotes cristallines cachées dans la jungle et atmosphère bohème-chic, la ville a tout pour séduire les voyageurs en quête d'authenticité et de dépaysement.
+        </p>
+        <p style="font-family:'Cormorant Garamond',serif;font-size:21px;line-height:1.85;color:#3a3a2e;margin:0 0 8px;">
+          Mais avec autant de choses à voir, difficile de savoir par où commencer. Voici ma sélection des 5 attractions incontournables à ne pas manquer lors de votre séjour à Tulum, avec tous les conseils pratiques pour en profiter pleinement.
+        </p>
+    
+        <div style="margin:54px 0 0;">
+          <div class="att-row" style="display:flex;align-items:baseline;gap:20px;border-top:1px solid rgba(35,42,31,0.16);padding-top:26px;">
+            <span class="att-num" style="flex-shrink:0;font-family:'Cormorant Garamond',serif;font-size:64px;line-height:0.8;color:#9aa68c;">01</span>
+            <h2 style="font-family:'Cormorant Garamond',serif;font-weight:500;font-size:clamp(28px,3.3vw,38px);line-height:1.1;margin:0;color:#232a1f;">Les ruines mayas de Tulum, face à la mer des Caraïbes</h2>
+          </div>
+        </div>
+        <p style="font-family:'Cormorant Garamond',serif;font-size:21px;line-height:1.85;color:#3a3a2e;margin:26px 0;">
+          Impossible de visiter Tulum sans s'arrêter devant son site archéologique le plus emblématique. Perchées sur une falaise de 12 mètres dominant la mer turquoise des Caraïbes, les ruines de Tulum offrent un décor à couper le souffle, unique parmi tous les sites mayas du Mexique : c'est en effet la seule cité maya construite directement en bord de mer.
+        </p>
+        <p style="font-family:'Cormorant Garamond',serif;font-size:21px;line-height:1.85;color:#3a3a2e;margin:26px 0;">
+          Le site, qui s'étend sur plusieurs hectares, abrite notamment El Castillo, le temple principal qui servait autrefois de phare aux navigateurs mayas, ainsi que le Temple du Dieu Descendant et le Temple des Fresques, dont les peintures murales témoignent encore de la richesse artistique de cette civilisation.
+        </p>
+        <aside style="background:#f6f2ea;border:1px solid rgba(35,42,31,0.12);border-left:3px solid #5c6b53;padding:26px 30px;margin:30px 0;">
+          <p style="font-size:11px;letter-spacing:0.28em;text-transform:uppercase;color:#6f7d63;margin:0 0 16px;">Conseils pratiques</p>
+          <ul style="list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:11px;font-size:15.5px;line-height:1.55;color:#5b5446;">
+            <li style="display:flex;gap:12px;"><span style="color:#9aa68c;">✦</span><span>Arrivez dès l'ouverture (8h) pour éviter la foule et la chaleur écrasante de la mi-journée.</span></li>
+            <li style="display:flex;gap:12px;"><span style="color:#9aa68c;">✦</span><span>Comptez environ 1h30 à 2h pour la visite.</span></li>
+            <li style="display:flex;gap:12px;"><span style="color:#9aa68c;">✦</span><span>Portez un chapeau et de la crème solaire, l'ombre est rare sur le site.</span></li>
+            <li style="display:flex;gap:12px;"><span style="color:#9aa68c;">✦</span><span>En contrebas, une petite plage permet de se baigner avec vue sur les ruines : un moment vraiment magique.</span></li>
+          </ul>
+        </aside>
+    
+        <div style="margin:54px 0 0;">
+          <div class="att-row" style="display:flex;align-items:baseline;gap:20px;border-top:1px solid rgba(35,42,31,0.16);padding-top:26px;">
+            <span class="att-num" style="flex-shrink:0;font-family:'Cormorant Garamond',serif;font-size:64px;line-height:0.8;color:#9aa68c;">02</span>
+            <h2 style="font-family:'Cormorant Garamond',serif;font-weight:500;font-size:clamp(28px,3.3vw,38px);line-height:1.1;margin:0;color:#232a1f;">Les cenotes, joyaux cachés de la jungle</h2>
+          </div>
+        </div>
+        <p style="font-family:'Cormorant Garamond',serif;font-size:21px;line-height:1.85;color:#3a3a2e;margin:26px 0;">
+          Le Yucatán repose sur un sous-sol calcaire criblé de grottes et de rivières souterraines, qui ont donné naissance à des milliers de cenotes : des puits naturels d'eau douce, parfois ouverts au ciel, parfois cachés dans des grottes obscures. Pour les Mayas, ces lieux étaient sacrés, considérés comme des portes vers le monde souterrain. Aux alentours de Tulum, deux cenotes sortent particulièrement du lot :
+        </p>
+        <div style="display:flex;flex-direction:column;gap:16px;margin:0 0 26px;">
+          <p style="font-family:'Cormorant Garamond',serif;font-size:20px;line-height:1.7;color:#3a3a2e;margin:0;"><strong style="font-weight:600;color:#232a1f;">Gran Cenote</strong> — facilement accessible, avec une eau cristalline peu profonde idéale pour le snorkeling. On y croise souvent des tortues et de petits poissons.</p>
+          <p style="font-family:'Cormorant Garamond',serif;font-size:20px;line-height:1.7;color:#3a3a2e;margin:0;"><strong style="font-weight:600;color:#232a1f;">Dos Ojos</strong> — un système de grottes plus spectaculaire, parfait pour la plongée et le snorkeling, avec des jeux de lumière saisissants qui traversent l'eau.</p>
+        </div>
+        <aside style="background:#f6f2ea;border:1px solid rgba(35,42,31,0.12);border-left:3px solid #5c6b53;padding:26px 30px;margin:30px 0;">
+          <p style="font-size:11px;letter-spacing:0.28em;text-transform:uppercase;color:#6f7d63;margin:0 0 16px;">Conseils pratiques</p>
+          <ul style="list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:11px;font-size:15.5px;line-height:1.55;color:#5b5446;">
+            <li style="display:flex;gap:12px;"><span style="color:#9aa68c;">✦</span><span>Utilisez uniquement de la crème solaire biodégradable (souvent obligatoire) pour préserver l'écosystème fragile.</span></li>
+            <li style="display:flex;gap:12px;"><span style="color:#9aa68c;">✦</span><span>Une douche est généralement exigée avant la baignade.</span></li>
+            <li style="display:flex;gap:12px;"><span style="color:#9aa68c;">✦</span><span>Prévoyez des chaussures aquatiques, certaines zones rocheuses peuvent être glissantes.</span></li>
+            <li style="display:flex;gap:12px;"><span style="color:#9aa68c;">✦</span><span>Privilégiez une visite en début de matinée, avant l'arrivée des groupes.</span></li>
+          </ul>
+        </aside>
+    
+        <div style="margin:54px 0 0;">
+          <div class="att-row" style="display:flex;align-items:baseline;gap:20px;border-top:1px solid rgba(35,42,31,0.16);padding-top:26px;">
+            <span class="att-num" style="flex-shrink:0;font-family:'Cormorant Garamond',serif;font-size:64px;line-height:0.8;color:#9aa68c;">03</span>
+            <h2 style="font-family:'Cormorant Garamond',serif;font-weight:500;font-size:clamp(28px,3.3vw,38px);line-height:1.1;margin:0;color:#232a1f;">La zone hôtelière de Tulum Beach</h2>
+          </div>
+        </div>
+        <p style="font-family:'Cormorant Garamond',serif;font-size:21px;line-height:1.85;color:#3a3a2e;margin:26px 0;">
+          La fameuse « Zona Hotelera » de Tulum s'étire le long d'une plage de sable blanc bordée de cocotiers, sur près de 10 kilomètres. C'est ici que se concentrent les hôtels-boutiques, les beach clubs tendance et les restaurants les plus photogéniques de la ville, mélangeant architecture en bois flotté, décoration bohème et ambiance décontractée.
+        </p>
+        <p style="font-family:'Cormorant Garamond',serif;font-size:21px;line-height:1.85;color:#3a3a2e;margin:26px 0;">
+          Même sans y loger, la zone hôtelière mérite une journée complète : on peut y louer un vélo pour sillonner la route principale, s'arrêter dans un beach club, déguster un ceviche les pieds dans le sable, ou simplement profiter de l'une des plus belles plages du Mexique.
+        </p>
+        <aside style="background:#f6f2ea;border:1px solid rgba(35,42,31,0.12);border-left:3px solid #5c6b53;padding:26px 30px;margin:30px 0;">
+          <p style="font-size:11px;letter-spacing:0.28em;text-transform:uppercase;color:#6f7d63;margin:0 0 16px;">Conseils pratiques</p>
+          <ul style="list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:11px;font-size:15.5px;line-height:1.55;color:#5b5446;">
+            <li style="display:flex;gap:12px;"><span style="color:#9aa68c;">✦</span><span>Le vélo est le moyen de transport le plus pratique et le plus agréable pour explorer la zone.</span></li>
+            <li style="display:flex;gap:12px;"><span style="color:#9aa68c;">✦</span><span>Les beach clubs demandent souvent une consommation minimale pour accéder à leurs transats.</span></li>
+            <li style="display:flex;gap:12px;"><span style="color:#9aa68c;">✦</span><span>Privilégiez le lever ou le coucher du soleil pour des photos sans trop de monde.</span></li>
+            <li style="display:flex;gap:12px;"><span style="color:#9aa68c;">✦</span><span>Les algues sargasses varient selon la saison ; renseignez-vous avant de réserver si la plage est votre priorité.</span></li>
+          </ul>
+        </aside>
+    
+        <div style="margin:54px 0 0;">
+          <div class="att-row" style="display:flex;align-items:baseline;gap:20px;border-top:1px solid rgba(35,42,31,0.16);padding-top:26px;">
+            <span class="att-num" style="flex-shrink:0;font-family:'Cormorant Garamond',serif;font-size:64px;line-height:0.8;color:#9aa68c;">04</span>
+            <h2 style="font-family:'Cormorant Garamond',serif;font-weight:500;font-size:clamp(28px,3.3vw,38px);line-height:1.1;margin:0;color:#232a1f;">La réserve de biosphère de Sian Ka'an</h2>
+          </div>
+        </div>
+        <p style="font-family:'Cormorant Garamond',serif;font-size:21px;line-height:1.85;color:#3a3a2e;margin:26px 0;">
+          Classée au patrimoine mondial de l'UNESCO, la réserve de Sian Ka'an (« là où naît le ciel » en maya) s'étend sur plus de 500 000 hectares au sud de Tulum. C'est l'une des zones protégées les plus riches en biodiversité d'Amérique du Nord, abritant mangroves, lagons, forêts tropicales et récifs coralliens.
+        </p>
+        <p style="font-family:'Cormorant Garamond',serif;font-size:21px;line-height:1.85;color:#3a3a2e;margin:26px 0;">
+          Une excursion permet d'observer une faune exceptionnelle : flamants roses, lamantins, crocodiles, tortues marines et plus de 300 espèces d'oiseaux. Les visites guidées en bateau à travers les canaux mayas et les lagons aux eaux multicolores sont une expérience à part, loin de l'agitation touristique du centre de Tulum.
+        </p>
+        <aside style="background:#f6f2ea;border:1px solid rgba(35,42,31,0.12);border-left:3px solid #5c6b53;padding:26px 30px;margin:30px 0;">
+          <p style="font-size:11px;letter-spacing:0.28em;text-transform:uppercase;color:#6f7d63;margin:0 0 16px;">Conseils pratiques</p>
+          <ul style="list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:11px;font-size:15.5px;line-height:1.55;color:#5b5446;">
+            <li style="display:flex;gap:12px;"><span style="color:#9aa68c;">✦</span><span>La réserve n'est accessible qu'avec un guide agréé : réservez votre excursion à l'avance.</span></li>
+            <li style="display:flex;gap:12px;"><span style="color:#9aa68c;">✦</span><span>Comptez une demi-journée à une journée complète selon le circuit choisi.</span></li>
+            <li style="display:flex;gap:12px;"><span style="color:#9aa68c;">✦</span><span>Emportez des jumelles si vous êtes passionné d'observation des oiseaux.</span></li>
+            <li style="display:flex;gap:12px;"><span style="color:#9aa68c;">✦</span><span>La meilleure période pour observer la faune se situe tôt le matin.</span></li>
+          </ul>
+        </aside>
+    
+        <div style="margin:54px 0 0;">
+          <div class="att-row" style="display:flex;align-items:baseline;gap:20px;border-top:1px solid rgba(35,42,31,0.16);padding-top:26px;">
+            <span class="att-num" style="flex-shrink:0;font-family:'Cormorant Garamond',serif;font-size:64px;line-height:0.8;color:#9aa68c;">05</span>
+            <h2 style="font-family:'Cormorant Garamond',serif;font-weight:500;font-size:clamp(28px,3.3vw,38px);line-height:1.1;margin:0;color:#232a1f;">El Mercado et la gastronomie locale</h2>
+          </div>
+        </div>
+        <p style="font-family:'Cormorant Garamond',serif;font-size:21px;line-height:1.85;color:#3a3a2e;margin:26px 0;">
+          Pour une immersion plus authentique, direction le centre-ville de Tulum (Tulum Pueblo) et ses marchés locaux comme El Mercadito, où l'on trouve fruits exotiques, épices, artisanat local et surtout une cuisine yucatèque savoureuse à prix doux, loin des tarifs parfois élevés de la zone hôtelière.
+        </p>
+        <p style="font-family:'Cormorant Garamond',serif;font-size:21px;line-height:1.85;color:#3a3a2e;margin:26px 0;">
+          C'est l'occasion de goûter aux spécialités régionales : cochinita pibil (porc mariné cuit à l'étouffée), tacos al pastor, panuchos, ou encore un verre d'agua de horchata bien frais. Le centre-ville permet aussi de découvrir le Tulum du quotidien, plus authentique et moins formaté pour les touristes.
+        </p>
+        <aside style="background:#f6f2ea;border:1px solid rgba(35,42,31,0.12);border-left:3px solid #5c6b53;padding:26px 30px;margin:30px 0;">
+          <p style="font-size:11px;letter-spacing:0.28em;text-transform:uppercase;color:#6f7d63;margin:0 0 16px;">Conseils pratiques</p>
+          <ul style="list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:11px;font-size:15.5px;line-height:1.55;color:#5b5446;">
+            <li style="display:flex;gap:12px;"><span style="color:#9aa68c;">✦</span><span>Les prix dans le centre-ville sont généralement 2 à 3 fois moins élevés que dans la zone hôtelière.</span></li>
+            <li style="display:flex;gap:12px;"><span style="color:#9aa68c;">✦</span><span>Privilégiez les stands où mangent les habitants, gage de fraîcheur.</span></li>
+            <li style="display:flex;gap:12px;"><span style="color:#9aa68c;">✦</span><span>Le marché est particulièrement animé en fin d'après-midi et en soirée.</span></li>
+            <li style="display:flex;gap:12px;"><span style="color:#9aa68c;">✦</span><span>N'hésitez pas à négocier (avec courtoisie) sur les marchés d'artisanat.</span></li>
+          </ul>
+        </aside>
+    
+        <h2 style="font-family:'Cormorant Garamond',serif;font-weight:500;font-size:32px;line-height:1.15;margin:54px 0 16px;color:#232a1f;">Quand partir à Tulum ?</h2>
+        <p style="font-family:'Cormorant Garamond',serif;font-size:21px;line-height:1.85;color:#3a3a2e;margin:0 0 26px;">
+          La meilleure période s'étend de <strong style="font-weight:600;color:#232a1f;">novembre à avril</strong>, durant la saison sèche, avec des températures agréables et moins d'humidité. La saison des pluies (juin à octobre) reste praticable mais s'accompagne d'averses tropicales fréquentes, généralement courtes, et d'un risque accru d'ouragans en fin de saison. Attention également à la saison des sargasses (algues brunes), particulièrement présente entre avril et août selon les années.
+        </p>
+        <h2 style="font-family:'Cormorant Garamond',serif;font-weight:500;font-size:32px;line-height:1.15;margin:44px 0 16px;color:#232a1f;">Comment se déplacer à Tulum ?</h2>
+        <p style="font-family:'Cormorant Garamond',serif;font-size:21px;line-height:1.85;color:#3a3a2e;margin:0 0 26px;">
+          Tulum se découvre facilement à vélo, notamment pour relier le centre-ville à la zone hôtelière et aux ruines. Pour les excursions plus éloignées (cenotes, Sian Ka'an), la location de voiture ou les excursions organisées restent les options les plus confortables. Les taxis sont également nombreux, avec des tarifs fixes à négocier avant le départ.
+        </p>
+    
+        <div style="background:#7d8e73;color:#f4efe6;padding:40px 40px 44px;margin:46px 0 40px;">
+          <p style="font-size:11px;letter-spacing:0.3em;text-transform:uppercase;color:rgba(244,239,230,0.8);margin:0 0 14px;">En résumé</p>
+          <p style="font-family:'Cormorant Garamond',serif;font-size:22px;line-height:1.6;margin:0;color:#f4efe6;">Entre histoire maya, nature préservée, plages de rêve et gastronomie locale, Tulum concentre en un seul lieu tout ce qui fait la magie du Mexique. Que vous soyez plutôt culture, farniente ou aventure, ces 5 incontournables vous garantissent un séjour mémorable.</p>
+        </div>
+    `
   }
 ];
