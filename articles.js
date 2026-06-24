@@ -6,6 +6,137 @@
 
 window.SAORA_ARTICLES_LIST = [
   {
+    slug: 'lune-de-miel-bali',
+    title: 'Lune de miel à Bali : l\'île des dieux, à votre rythme',
+    titleHtml: 'Lune de miel à Bali :<br><span style="font-style:italic;color:#5c6b53;">l\'île des dieux, à votre rythme</span>',
+    subtitle: 'Il n\'y a pas une façon de vivre Bali en amoureux — il y en a dix. Voici comment composer la vôtre.',
+    category: 'Guide de voyage · Bali',
+    author: 'Fiona',
+    date: 'Juin 2026',
+    dateISO: '2026-06-24',
+    readingTime: '8 min',
+    hero: 'bali-temple-hero.jpg',
+    heroAlt: 'Temple de Pura Ulun Danu Bratan sur le lac Bratan au lever du soleil, dans la brume des collines de Bali',
+    heroPos: 'center 45%',
+    excerpt: 'Rizières d\'Ubud, falaises d\'Uluwatu, eaux turquoise de Nusa Penida — Bali est une île qui se laisse habiter. Voici comment la composer pour deux, du premier jour jusqu\'au dernier.',
+    ctaEyebrow: 'Votre lune de miel à Bali, sur-mesure',
+    ctaTitleHtml: 'Bali à deux,<br><span style="font-family:\'Sloop Script One\',cursive;font-weight:400;">composée rien que pour vous</span>',
+    ctaText: "C'est moi, Fiona, qui prendrai en charge la conception de votre voyage, du premier brouillon jusqu'au jour du départ. Itinéraire, villas, expériences privées — racontez-moi votre projet, et composons-le ensemble.",
+    bodyHtml: `
+    <p style="font-family:'Cormorant Garamond',serif;font-size:21px;line-height:1.85;color:#3a3a2e;margin:0 0 26px;">
+      <span style="float:left;font-family:'Cormorant Garamond',serif;font-weight:600;font-size:78px;line-height:0.74;margin:8px 14px 0 0;color:#5c6b53;">I</span>l y a des destinations qu'on imagine avant même d'y avoir mis les pieds. Bali en fait partie. Rizières en terrasses, temple posé sur un rocher au-dessus de l'océan, villa avec piscine à débordement dans la jungle — les images circulent partout, et pourtant, quand on y arrive enfin, avec la personne qu'on aime, quelque chose se passe qu'aucune photo ne prépare. L'air chaud et doux à la sortie de l'avion, l'odeur des offrandes fleuries, la lumière de fin de journée sur les rizières d'Ubud. Bali est une île qui se laisse habiter. Et c'est exactement ce que je propose à mes couples : pas un circuit, pas une liste de spots — un séjour qui vous ressemble.
+    </p>
+
+    <div class="att-row" style="display:flex;align-items:baseline;gap:28px;margin:60px 0 20px;padding-top:24px;border-top:1px solid rgba(35,42,31,0.14);">
+      <span class="att-num" style="flex-shrink:0;font-family:'Cormorant Garamond',serif;font-size:64px;font-weight:500;line-height:0.85;color:#9aa68c;">01</span>
+      <h2 style="font-family:'Cormorant Garamond',serif;font-weight:500;font-size:32px;line-height:1.15;margin:0;color:#232a1f;">Ubud, l'âme de l'île</h2>
+    </div>
+    <p style="font-family:'Cormorant Garamond',serif;font-size:21px;line-height:1.85;color:#3a3a2e;margin:0 0 26px;">
+      Ubud est souvent la première étape que je recommande, et parfois la seule dont mes clients parlent au retour. C'est une ville nichée dans les collines du centre de Bali, entourée de forêts, de vallées profondes et de terrasses de riz que le vent fait onduler. Il y règne une lenteur rare, comme si le temps balinais fonctionnait selon ses propres règles.
+    </p>
+    <p style="font-family:'Cormorant Garamond',serif;font-size:21px;line-height:1.85;color:#3a3a2e;margin:0 0 26px;">
+      Pour un couple, Ubud c'est le matin dans la chambre ouverte sur les palmiers, le petit-déjeuner servi dans le jardin, une balade jusqu'aux rizières de Tegallalang avant que les groupes arrivent, un soin dans un spa traditionnel l'après-midi. La nuit, quelques restaurants impeccables au bord de la Campuhan River. Rien de spectaculaire sur le papier — tout dans le ressenti.
+    </p>
+    <aside style="background:#f6f2ea;border:1px solid rgba(35,42,31,0.12);border-left:3px solid #5c6b53;padding:26px 30px;margin:30px 0;">
+      <p style="font-size:11px;letter-spacing:0.28em;text-transform:uppercase;color:#6f7d63;margin:0 0 16px;">Conseils pratiques</p>
+      <ul style="list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:11px;font-size:15.5px;line-height:1.55;color:#5b5446;">
+        <li style="display:flex;gap:12px;"><span style="color:#9aa68c;">✦</span><span><strong style="color:#232a1f;">Hébergement :</strong> Privilégiez une villa avec jardin privé plutôt qu'un hôtel. À Ubud, même les villas mid-range ont une âme. Comptez 150 à 350 €/nuit pour un beau niveau de standing.</span></li>
+        <li style="display:flex;gap:12px;"><span style="color:#9aa68c;">✦</span><span><strong style="color:#232a1f;">À faire ensemble :</strong> Cours de cuisine balinaise le matin (2h, accessible à tous), temple de Goa Gajah tôt le matin, balade dans la forêt des singes de Sangeh si vous passez par là.</span></li>
+        <li style="display:flex;gap:12px;"><span style="color:#9aa68c;">✦</span><span><strong style="color:#232a1f;">À éviter :</strong> La balançoire Instagram de Tegallalang — belle sur photo, désagréable en vrai (file d'attente, bruit, foule). Il y a tellement mieux à Ubud.</span></li>
+        <li style="display:flex;gap:12px;"><span style="color:#9aa68c;">✦</span><span><strong style="color:#232a1f;">Durée idéale :</strong> 3 à 4 nuits pour s'y poser vraiment.</span></li>
+      </ul>
+    </aside>
+
+    <div class="att-row" style="display:flex;align-items:baseline;gap:28px;margin:60px 0 20px;padding-top:24px;border-top:1px solid rgba(35,42,31,0.14);">
+      <span class="att-num" style="flex-shrink:0;font-family:'Cormorant Garamond',serif;font-size:64px;font-weight:500;line-height:0.85;color:#9aa68c;">02</span>
+      <h2 style="font-family:'Cormorant Garamond',serif;font-weight:500;font-size:32px;line-height:1.15;margin:0;color:#232a1f;">Seminyak et Uluwatu : le luxe balnéaire</h2>
+    </div>
+    <p style="font-family:'Cormorant Garamond',serif;font-size:21px;line-height:1.85;color:#3a3a2e;margin:0 0 26px;">
+      Si Ubud est l'intérieur de l'île, Seminyak et la péninsule de Bukit sont sa façade maritime — et elles n'ont rien à envier aux destinations côtières les plus élégantes du monde. Seminyak, c'est la terrasse du Ku De Ta au coucher du soleil, les boutiques de créateurs locaux, les beach clubs qui font la réputation de Bali depuis vingt ans. C'est beau, animé, légèrement festif — parfait pour une nuit ou deux en milieu de séjour, quand on a envie de changer de rythme.
+    </p>
+    <p style="font-family:'Cormorant Garamond',serif;font-size:21px;line-height:1.85;color:#3a3a2e;margin:0 0 26px;">
+      Mais c'est à Uluwatu, sur les falaises au sud de l'île, que je conseille de finir. L'hôtel Bvlgari y est posé au-dessus de l'océan Indien comme une sculpture — une des plus belles adresses de luxe d'Asie. Les plages cachées au pied des falaises (Padang Padang, Balangan) sont à couper le souffle. Et le temple d'Uluwatu, au crépuscule avec la danse Kecak face à la mer, est un de ces moments qu'on ne raconte pas vraiment, parce que les mots ne suffisent pas.
+    </p>
+    <aside style="background:#f6f2ea;border:1px solid rgba(35,42,31,0.12);border-left:3px solid #5c6b53;padding:26px 30px;margin:30px 0;">
+      <p style="font-size:11px;letter-spacing:0.28em;text-transform:uppercase;color:#6f7d63;margin:0 0 16px;">Conseils pratiques</p>
+      <ul style="list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:11px;font-size:15.5px;line-height:1.55;color:#5b5446;">
+        <li style="display:flex;gap:12px;"><span style="color:#9aa68c;">✦</span><span><strong style="color:#232a1f;">Seminyak vs Canggu :</strong> Seminyak est plus chic et moins bohème que Canggu. Pour une lune de miel, Seminyak ou Uluwatu s'imposent.</span></li>
+        <li style="display:flex;gap:12px;"><span style="color:#9aa68c;">✦</span><span><strong style="color:#232a1f;">Dîner romantique :</strong> Locavore à Ubud ou Merah Putih à Seminyak — deux tables d'exception, à réserver longtemps à l'avance.</span></li>
+        <li style="display:flex;gap:12px;"><span style="color:#9aa68c;">✦</span><span><strong style="color:#232a1f;">Temple d'Uluwatu :</strong> Prévoyez la visite en fin d'après-midi pour le spectacle Kecak au coucher du soleil (env. 15 € par personne).</span></li>
+        <li style="display:flex;gap:12px;"><span style="color:#9aa68c;">✦</span><span><strong style="color:#232a1f;">Durée idéale :</strong> 2 nuits Seminyak + 2 nuits Uluwatu.</span></li>
+      </ul>
+    </aside>
+
+    <div class="att-row" style="display:flex;align-items:baseline;gap:28px;margin:60px 0 20px;padding-top:24px;border-top:1px solid rgba(35,42,31,0.14);">
+      <span class="att-num" style="flex-shrink:0;font-family:'Cormorant Garamond',serif;font-size:64px;font-weight:500;line-height:0.85;color:#9aa68c;">03</span>
+      <h2 style="font-family:'Cormorant Garamond',serif;font-weight:500;font-size:32px;line-height:1.15;margin:0;color:#232a1f;">Nusa Penida : l'échappée sauvage</h2>
+    </div>
+    <p style="font-family:'Cormorant Garamond',serif;font-size:21px;line-height:1.85;color:#3a3a2e;margin:0 0 26px;">
+      Nusa Penida, c'est Bali avant le tourisme de masse. Une île à 45 minutes en speedboat depuis Sanur, encore brute, peu développée, avec des falaises à pic sur une mer turquoise et une faune sous-marine extraordinaire (raies mantas, tortues, requins baleines certains mois). Je ne la recommande pas à tous les couples — il faut accepter des routes cabossées, peu d'hébergements de luxe, et une logistique plus sportive. Mais pour ceux qui veulent une journée ou deux hors du circuit habituel, c'est une expérience à part.
+    </p>
+    <p style="font-family:'Cormorant Garamond',serif;font-size:21px;line-height:1.85;color:#3a3a2e;margin:0 0 26px;">
+      Les points de vue de Kelingking Beach (le « T-Rex ») et d'Angel's Billabong comptent parmi les plus spectaculaires que j'ai vus en Asie. Juste pour ça, ça vaut le détour.
+    </p>
+    <aside style="background:#f6f2ea;border:1px solid rgba(35,42,31,0.12);border-left:3px solid #5c6b53;padding:26px 30px;margin:30px 0;">
+      <p style="font-size:11px;letter-spacing:0.28em;text-transform:uppercase;color:#6f7d63;margin:0 0 16px;">Conseils pratiques</p>
+      <ul style="list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:11px;font-size:15.5px;line-height:1.55;color:#5b5446;">
+        <li style="display:flex;gap:12px;"><span style="color:#9aa68c;">✦</span><span><strong style="color:#232a1f;">Comment y aller :</strong> Speedboat depuis Sanur Beach (30-45 min, env. 25 €/pers aller-retour). Réservez à l'avance en haute saison.</span></li>
+        <li style="display:flex;gap:12px;"><span style="color:#9aa68c;">✦</span><span><strong style="color:#232a1f;">Meilleure période :</strong> Avril à octobre (saison sèche). En saison des pluies, les routes deviennent dangereuses.</span></li>
+        <li style="display:flex;gap:12px;"><span style="color:#9aa68c;">✦</span><span><strong style="color:#232a1f;">En journée ou en nuitée :</strong> La plupart des couples font Nusa Penida à la journée depuis Bali. C'est suffisant pour les incontournables.</span></li>
+        <li style="display:flex;gap:12px;"><span style="color:#9aa68c;">✦</span><span><strong style="color:#232a1f;">Snorkeling :</strong> Crystal Bay et Manta Point sont parmi les meilleurs spots de toute l'Indonésie.</span></li>
+      </ul>
+    </aside>
+
+    <div class="att-row" style="display:flex;align-items:baseline;gap:28px;margin:60px 0 20px;padding-top:24px;border-top:1px solid rgba(35,42,31,0.14);">
+      <span class="att-num" style="flex-shrink:0;font-family:'Cormorant Garamond',serif;font-size:64px;font-weight:500;line-height:0.85;color:#9aa68c;">04</span>
+      <h2 style="font-family:'Cormorant Garamond',serif;font-weight:500;font-size:32px;line-height:1.15;margin:0;color:#232a1f;">Choisir sa villa : le vrai secret d'une belle lune de miel à Bali</h2>
+    </div>
+    <p style="font-family:'Cormorant Garamond',serif;font-size:21px;line-height:1.85;color:#3a3a2e;margin:0 0 26px;">
+      La question que me posent le plus souvent mes clients : hôtel ou villa ? À Bali, la réponse est presque toujours villa — et pas seulement pour des raisons de budget. Une villa privée avec piscine, jardin tropical, cuisine à disposition et parfois même un cuisinier maison, c'est une autre façon de vivre l'île. Plus intime, plus souple, plus balinaise.
+    </p>
+    <p style="font-family:'Cormorant Garamond',serif;font-size:21px;line-height:1.85;color:#3a3a2e;margin:0 0 26px;">
+      Pour vous donner un premier aperçu, je recommande souvent le <strong style="font-weight:600;color:#232a1f;">Kayon Jungle Resort</strong> à Ubud (vue sur la forêt, infinity pool suspendue sur la vallée, service discret et attentionné) ou l'<strong style="font-weight:600;color:#232a1f;">Alila Villas Uluwatu</strong> pour ceux qui veulent la mer et les falaises. Si vous voulez explorer encore plus d'options — des villas plus confidentielles, à tous les budgets et dans toutes les zones de l'île — le blog <a href="https://asianwanderlust.com/en/bali-luxury-villas/" target="_blank" rel="noopener" style="color:#5c6b53;text-decoration:underline;text-underline-offset:3px;">Asian Wanderlust</a> en recense une belle sélection, avec photos et détails pratiques, utile pour affiner vos envies avant de me contacter.
+    </p>
+    <p style="font-family:'Cormorant Garamond',serif;font-size:21px;line-height:1.85;color:#3a3a2e;margin:0 0 26px;">
+      Ce que j'ajoute de mon côté, c'est la couche sur-mesure : la villa qui correspond à <em>votre</em> façon de voyager, au bon emplacement par rapport à votre itinéraire, avec les arrangements de bienvenue que j'organise avec les équipes locales avant votre départ — dîner aux chandelles à l'arrivée, bain de fleurs, lit décoré de pétales.
+    </p>
+    <aside style="background:#f6f2ea;border:1px solid rgba(35,42,31,0.12);border-left:3px solid #5c6b53;padding:26px 30px;margin:30px 0;">
+      <p style="font-size:11px;letter-spacing:0.28em;text-transform:uppercase;color:#6f7d63;margin:0 0 16px;">Conseils pratiques</p>
+      <ul style="list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:11px;font-size:15.5px;line-height:1.55;color:#5b5446;">
+        <li style="display:flex;gap:12px;"><span style="color:#9aa68c;">✦</span><span><strong style="color:#232a1f;">Budget villa :</strong> Entre 100 et 250 €/nuit pour une belle villa privée avec piscine à Ubud ou Seminyak. Les villas sur falaise à Uluwatu peuvent monter à 400-600 €/nuit.</span></li>
+        <li style="display:flex;gap:12px;"><span style="color:#9aa68c;">✦</span><span><strong style="color:#232a1f;">Ce que j'inclus toujours :</strong> Un dîner romantique privatif à l'arrivée, et une surprise mid-séjour (bain de fleurs, soin pour deux, excursion privée).</span></li>
+        <li style="display:flex;gap:12px;"><span style="color:#9aa68c;">✦</span><span><strong style="color:#232a1f;">Villa vs resort :</strong> Si vous voulez le service hôtelier complet, Alila Villas Uluwatu ou Komaneka à Ubud sont des valeurs sûres absolues.</span></li>
+        <li style="display:flex;gap:12px;"><span style="color:#9aa68c;">✦</span><span><strong style="color:#232a1f;">Réservation :</strong> Anticipez 3 à 6 mois à l'avance en haute saison (juillet-août, décembre-janvier).</span></li>
+      </ul>
+    </aside>
+
+    <div class="att-row" style="display:flex;align-items:baseline;gap:28px;margin:60px 0 20px;padding-top:24px;border-top:1px solid rgba(35,42,31,0.14);">
+      <span class="att-num" style="flex-shrink:0;font-family:'Cormorant Garamond',serif;font-size:64px;font-weight:500;line-height:0.85;color:#9aa68c;">05</span>
+      <h2 style="font-family:'Cormorant Garamond',serif;font-weight:500;font-size:32px;line-height:1.15;margin:0;color:#232a1f;">Quand partir et comment organiser</h2>
+    </div>
+    <p style="font-family:'Cormorant Garamond',serif;font-size:21px;line-height:1.85;color:#3a3a2e;margin:0 0 26px;">
+      La saison sèche s'étend d'avril à octobre — c'est la meilleure période pour une lune de miel à Bali. Le ciel est clair, l'humidité supportable, les routes sèches. Juillet et août sont les mois les plus touristiques : les hébergements sont pleins et plus chers, mais les conditions météo sont idéales. Pour un peu plus de tranquillité, mai-juin ou septembre sont des mois parfaits.
+    </p>
+    <p style="font-family:'Cormorant Garamond',serif;font-size:21px;line-height:1.85;color:#3a3a2e;margin:0 0 26px;">
+      Pour une lune de miel complète, je recommande 10 à 12 jours minimum : 3-4 nuits à Ubud, 2 nuits à Seminyak, 2 nuits à Uluwatu, avec une journée Nusa Penida si vous le souhaitez. C'est le rythme que je construis systématiquement — assez de variété pour ne pas se lasser, assez de temps dans chaque endroit pour vraiment le ressentir.
+    </p>
+    <aside style="background:#f6f2ea;border:1px solid rgba(35,42,31,0.12);border-left:3px solid #5c6b53;padding:26px 30px;margin:30px 0;">
+      <p style="font-size:11px;letter-spacing:0.28em;text-transform:uppercase;color:#6f7d63;margin:0 0 16px;">Conseils pratiques</p>
+      <ul style="list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:11px;font-size:15.5px;line-height:1.55;color:#5b5446;">
+        <li style="display:flex;gap:12px;"><span style="color:#9aa68c;">✦</span><span><strong style="color:#232a1f;">Vols :</strong> Paris → Bali avec correspondance à Singapour, Kuala Lumpur ou Doha. Comptez 16 à 20h selon l'escale. Qatar Airways et Singapore Airlines sont les options les plus confortables.</span></li>
+        <li style="display:flex;gap:12px;"><span style="color:#9aa68c;">✦</span><span><strong style="color:#232a1f;">Visa :</strong> Visa on arrival pour les ressortissants français (30 jours, env. 35 USD). Prolongation possible sur place.</span></li>
+        <li style="display:flex;gap:12px;"><span style="color:#9aa68c;">✦</span><span><strong style="color:#232a1f;">Décalage horaire :</strong> +6h en heure d'été. Prévoyez une arrivée la veille du premier jour « actif ».</span></li>
+        <li style="display:flex;gap:12px;"><span style="color:#9aa68c;">✦</span><span><strong style="color:#232a1f;">Transport sur place :</strong> Chauffeur privé recommandé pour tous les trajets inter-zones (env. 50-60 € la journée). Évitez les scooters sur les axes principaux si vous ne maîtrisez pas.</span></li>
+      </ul>
+    </aside>
+
+    <div style="background:#7d8e73;color:#f4efe6;padding:40px 40px 44px;margin:46px 0 40px;">
+      <p style="font-size:11px;letter-spacing:0.3em;text-transform:uppercase;color:rgba(244,239,230,0.8);margin:0 0 14px;">En résumé</p>
+      <p style="font-family:'Cormorant Garamond',serif;font-size:22px;line-height:1.6;margin:0;color:#f4efe6;">Bali n'est pas une destination — c'est une atmosphère. Pour en profiter vraiment à deux, il s'agit moins d'optimiser son itinéraire que de laisser de la place à l'imprévu : la lumière du soir sur les rizières qu'on n'avait pas prévues, la petite route qui mène à un temple vide, le petit-déjeuner qui s'étire parce que personne n'a envie de se lever. C'est ce genre de moments que je construis, séjour après séjour, pour les couples qui me font confiance.</p>
+    </div>
+    `
+  },
+  {
     slug: 'lune-de-miel-italie-toscane-vs-pouilles',
     title: 'Lune de miel en Italie : Toscane ou Pouilles ?',
     titleHtml: 'Lune de miel en Italie :<br><span style="font-style:italic;color:#5c6b53;">Toscane ou Pouilles ?</span>',
@@ -318,7 +449,7 @@ window.SAORA_ARTICLES_LIST = [
       <ul style="list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:11px;font-size:15.5px;line-height:1.55;color:#5b5446;">
         <li style="display:flex;gap:12px;"><span style="color:#9aa68c;">✦</span><span><strong style="color:#232a1f;">Hébergement :</strong> pas d'hôtels ni de complexes classiques. Optez pour chambres d'hôtes, cottages ou campings (Fillongley sur Denman ; Bradsdadsland ou Tribune Bay sur Hornby), et réservez tôt en été.</span></li>
         <li style="display:flex;gap:12px;"><span style="color:#9aa68c;">✦</span><span><strong style="color:#232a1f;">Déplacements :</strong> prévoyez un vélo ou une voiture ; le stop reste une pratique courante et bien acceptée des locaux.</span></li>
-        <li style="display:flex;gap:12px;"><span style="color:#9aa68c;">✦</span><span><strong style="color:#232a1f;">Budget :</strong> les commerces sont limités — faites vos courses principales à Courtenay ou Comox avant la traversée.</span></li>
+                <li style="display:flex;gap:12px;"><span style="color:#9aa68c;">✦</span><span><strong style="color:#232a1f;">Budget :</strong> les commerces sont limités — faites vos courses principales à Courtenay ou Comox avant la traversée.</span></li>
         <li style="display:flex;gap:12px;"><span style="color:#9aa68c;">✦</span><span><strong style="color:#232a1f;">Respect des lieux :</strong> privilégiez les commerces locaux, limitez vos déchets et respectez la tranquillité des habitants, attachés à un tourisme à taille humaine.</span></li>
       </ul>
     </aside>
